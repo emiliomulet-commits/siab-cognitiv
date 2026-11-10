@@ -34,3 +34,7 @@ Datos clave:
 ## Contacto
 
 - [Solicitar una demo](https://cognitiv.softwareinabox.eu/contacto)
+
+## Idiomas / Languages
+- [Español](https://cognitiv.softwareinabox.eu/)
+- [English](https://cognitiv.softwareinabox.eu/en/)
