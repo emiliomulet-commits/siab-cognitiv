@@ -38,3 +38,4 @@ Datos clave:
 ## Idiomas / Languages
 - [Español](https://cognitiv.softwareinabox.eu/)
 - [English](https://cognitiv.softwareinabox.eu/en/)
+- [Français](https://cognitiv.softwareinabox.eu/fr/)
