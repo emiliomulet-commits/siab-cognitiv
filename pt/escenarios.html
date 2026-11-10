@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cenários de utilização por setor | COGNITIV · Software in a Box</title>
+<meta property="og:image" content="https://cognitiv.softwareinabox.eu/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://cognitiv.softwareinabox.eu/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="description" content="Como se usa o COGNITIV, a IA soberana da Software in a Box, na indústria, finanças, jurídico, saúde e setor público: cenários de implementação com o dado dentro de casa.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://cognitiv.softwareinabox.eu/pt/escenarios">
+<meta property="og:type" content="article"><meta property="og:site_name" content="Software in a Box · COGNITIV"><meta property="og:locale" content="pt_PT">
+<meta property="og:title" content="Cenários de utilização por setor · COGNITIV"><meta property="og:description" content="Como se usa o COGNITIV, a IA soberana da Software in a Box, na indústria, finanças, jurídico, saúde e setor público: cenários de implementação com o dado dentro de casa."><meta property="og:url" content="https://cognitiv.softwareinabox.eu/pt/escenarios">
+<meta name="theme-color" content="#101317">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23101317'/%3E%3Crect x='12' y='20' width='40' height='24' fill='none' stroke='%23E4572E' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://www.softwareinabox.eu/assets/fonts.css">
+<link rel="stylesheet" href="/assets/cog.css">
+<style>
+.hero-c{background:var(--black);color:#fff;position:relative;overflow:hidden}
+.hero-c .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;padding-top:64px;padding-bottom:80px}
+.hero-c h1{color:#fff;font-size:clamp(36px,4.4vw,58px);font-weight:800;letter-spacing:-.035em}
+.hero-c .sector{font-family:var(--disp);font-weight:700;font-size:18px;color:var(--cog-l);margin-bottom:12px}
+.hero-c .lead{font-size:19px;color:rgba(255,255,255,.75);margin:22px 0 30px;max-width:32em}
+.hero-c figure{position:relative}
+.hero-c figure img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;display:block}
+.hero-c figcaption{position:absolute;left:16px;bottom:16px;background:rgba(16,19,23,.85);color:#fff;font-size:13.5px;padding:7px 12px;border-radius:6px}
+.crumb{font-size:14px;color:rgba(255,255,255,.55);margin-bottom:22px}.crumb a{color:rgba(255,255,255,.75)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+.two h2{font-size:clamp(28px,3vw,40px);font-weight:800}
+.two p.b{font-size:18px;margin-top:18px}
+.pains{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:6px}
+.pains li{background:var(--paper);border-left:4px solid var(--cog);padding:16px 20px;border-radius:0 10px 10px 0;font-weight:600;color:var(--ink)}
+.flow{width:100%;height:auto;margin-top:40px}
+.mods-used{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:22px}
+.mods-used li{display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:baseline;font-size:16.5px}
+.mods-used b{font-family:var(--disp);font-weight:800;color:var(--cog);letter-spacing:.03em}
+.ask{background:var(--night);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:14px;border:1px solid var(--line-d)}
+.ask .note{font-size:12.5px;color:rgba(255,255,255,.45)}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.ba div{border-radius:14px;padding:28px}
+.ba .bf{background:#fff;border:1px solid var(--line)}
+.ba .af{background:var(--ink);color:#fff}
+.ba h3{font-size:18px;margin-bottom:14px}.ba .af h3{color:#fff}
+.ba ul{list-style:none;display:flex;flex-direction:column;gap:12px;font-size:16.5px}
+.ba li{padding-left:28px;position:relative}
+.ba .bf li::before{content:"";position:absolute;left:4px;top:.75em;width:12px;height:2px;background:#8A9099}
+.ba .af li::before{content:"";position:absolute;left:2px;top:.38em;width:7px;height:12px;border:solid var(--cog-l);border-width:0 2.5px 2.5px 0;transform:rotate(45deg)}
+.extra{max-width:760px}
+.extra h2{font-size:clamp(26px,2.8vw,36px);font-weight:800}
+.extra p{font-size:18px;margin-top:16px}
+.others{display:flex;gap:14px;flex-wrap:wrap;margin-top:22px}
+.others a{font-family:var(--disp);font-weight:700;font-size:15px;color:var(--ink);border:1.5px solid var(--line);padding:11px 18px;border-radius:999px;text-decoration:none}
+.others a:hover{border-color:var(--cog);color:var(--cog)}
+.list{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.lrow{display:grid;grid-template-columns:280px 1fr auto;gap:36px;align-items:center;padding:28px 0;border-bottom:1px solid var(--line);text-decoration:none;color:inherit}
+.lrow img{width:280px;aspect-ratio:16/9;object-fit:cover;border-radius:10px;display:block}
+.lrow .s{font-family:var(--disp);font-weight:700;color:var(--cog);font-size:15px}
+.lrow h3{font-size:24px;font-weight:800;margin:4px 0 8px}
+.lrow p{font-size:16.5px;color:var(--mute);max-width:40em}
+.lrow .go{font-family:var(--disp);font-weight:700;font-size:15px;color:var(--cog);border:1.5px solid currentColor;padding:11px 18px;border-radius:999px;white-space:nowrap}
+.lrow:hover .go,.lrow:focus-visible .go{background:var(--cog);color:#fff;border-color:var(--cog)}
+.disc{font-size:14.5px;color:var(--mute);margin-top:22px}
+@media (max-width:1020px){.hero-c .wrap,.two{grid-template-columns:1fr}.lrow{grid-template-columns:200px 1fr}.lrow img{width:200px}.lrow .go{grid-column:2;justify-self:start}}
+@media (max-width:760px){.ba{grid-template-columns:1fr}.lrow{grid-template-columns:1fr}.lrow img{width:100%}.lrow .go{grid-column:1}.mods-used li{grid-template-columns:80px 1fr}}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebPage",
+   "@id": "https://cognitiv.softwareinabox.eu/pt/escenarios#webpage",
+   "url": "https://cognitiv.softwareinabox.eu/pt/escenarios",
+   "name": "Cenários de utilização por setor | COGNITIV · Software in a Box",
+   "description": "Como se usa o COGNITIV, a IA soberana da Software in a Box, na indústria, finanças, jurídico, saúde e setor público: cenários de implementação com o dado dentro de casa.",
+   "inLanguage": "pt",
+   "isPartOf": {
+    "@id": "https://cognitiv.softwareinabox.eu/#website"
+   },
+   "publisher": {
+    "@id": "https://www.softwareinabox.eu/#organization"
+   },
+   "dateModified": "2026-11-10"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "COGNITIV",
+     "item": "https://cognitiv.softwareinabox.eu/pt/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Cenários de utilização",
+     "item": "https://cognitiv.softwareinabox.eu/pt/escenarios"
+    }
+   ]
+  }
+ ]
+}
+</script>
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es" href="https://cognitiv.softwareinabox.eu/escenarios">
+<link rel="alternate" hreflang="en" href="https://cognitiv.softwareinabox.eu/en/escenarios">
+<link rel="alternate" hreflang="fr" href="https://cognitiv.softwareinabox.eu/fr/escenarios">
+<link rel="alternate" hreflang="de" href="https://cognitiv.softwareinabox.eu/de/escenarios">
+<link rel="alternate" hreflang="nl" href="https://cognitiv.softwareinabox.eu/nl/escenarios">
+<link rel="alternate" hreflang="pt" href="https://cognitiv.softwareinabox.eu/pt/escenarios">
+<link rel="alternate" hreflang="it" href="https://cognitiv.softwareinabox.eu/it/escenarios">
+<link rel="alternate" hreflang="x-default" href="https://cognitiv.softwareinabox.eu/en/escenarios">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar para o conteúdo</a>
+<header class="hd">
+  <div class="wrap">
+    <a class="brand" href="/pt/" aria-label="COGNITIV, início"><span class="mark">COGNITIV</span><small>pela Software in a Box</small></a>
+    <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Menu principal">
+      <a href="/pt/#producto">Produto</a> <a href="/pt/#por-que">Porquê COGNITIV</a> <a href="/pt/#servidores">Servidores</a> <a href="/pt/#escenarios">Cenários</a> <a class="btn btn-cog" href="/pt/contacto">Pedir uma demonstração</a>
+    </nav>
+  </div>
+</header>
+<main id="contenido">
+
+<section class="hero-c">
+  <div class="wrap" style="grid-template-columns:1fr;padding-bottom:64px">
+    <div>
+      <p class="crumb"><a href="/pt/">COGNITIV</a> / Cenários de utilização</p>
+      <h1>Como se usa o COGNITIV em cada setor</h1>
+      <p class="lead" style="margin-bottom:0">Cenários de implementação típicos: o problema de partida, como o COGNITIV o resolve e o que muda. Em todos, os dados ficam dentro da organização.</p>
+    </div>
+  </div>
+</section>
+<section class="sec">
+  <div class="wrap">
+    <div class="list"><a class="lrow" href="/pt/escenario-industria"><img src="/assets/casos/industria-control-crop.jpg" alt="Sala de controlo industrial" loading="lazy"><div><span class="s">Indústria</span><h3>Uma pergunta que atravessa toda a fábrica</h3><p>ERP, MES, qualidade e manutenção consultados ao mesmo tempo, sem que o segredo de fabrico saia da fábrica.</p></div><span class="go">Ver cenário</span></a><a class="lrow" href="/pt/escenario-finanzas"><img src="/assets/casos/finanzas-crop.jpg" alt="Ecrãs de mercados financeiros" loading="lazy"><div><span class="s">Finanças</span><h3>Análise de risco auditável, sem expor dados</h3><p>Inferência dentro da instituição e um registo íntegro de cada decisão, preparado para o DORA.</p></div><span class="go">Ver cenário</span></a><a class="lrow" href="/pt/escenario-legal"><img src="/assets/casos/legal-crop.jpg" alt="Advogado a rever documentação" loading="lazy"><div><span class="s">Jurídico</span><h3>Todo o arquivo documental, sob sigilo profissional</h3><p>Pesquisar, resumir e redigir sobre os processos do escritório sem que nenhum saia dele.</p></div><span class="go">Ver cenário</span></a><a class="lrow" href="https://datos.softwareinabox.eu/pt/#salud"><img src="/assets/casos/salud-ilus.jpg" alt="" loading="lazy"><div><span class="s">Saúde</span><h3>O processo clínico não sai do hospital</h3><p>IA sobre dados de doentes dentro da instituição, com permissões por função e rastreabilidade, preparada para o Espaço Europeu de Dados de Saúde.</p></div><span class="go">Ver o vertical de saúde</span></a><a class="lrow" href="/pt/contacto"><img src="/assets/casos/publico-ilus.jpg" alt="" loading="lazy"><div><span class="s">Setor público</span><h3>Serviços aos cidadãos com soberania</h3><p>Atendimento e relatórios com IA dentro da administração, rastreáveis e alinhados com o Esquema Nacional de Segurança espanhol (ENS).</p></div><span class="go">Falar do seu caso</span></a></div>
+    <p class="disc">São cenários ilustrativos de implementação, não referências de clientes concretos.</p>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap">
+    <div><h2>O seu setor não aparece?</h2><p>Desenhamos o cenário consigo a partir dos seus dados e sistemas.</p></div>
+    <a class="btn" href="/pt/contacto">Falemos do seu caso</a>
+  </div>
+</section>
+</main>
+<footer class="ft">
+  <div class="wrap">
+    <div class="cols">
+      <div><span class="mark" style="color:var(--cog-l);font-size:16px">COGNITIV</span><p style="margin-top:14px;max-width:24em">Servidor de IA próprio sobre Lenovo ThinkSystem. Um produto da Software in a Box.</p></div>
+      <div><h4>COGNITIV</h4><a href="/pt/que-es-cognitiv">O que é</a><a href="/pt/servidores">Servidores</a><a href="/pt/escenarios">Cenários de utilização</a><a href="/pt/contacto">Pedir uma demonstração</a></div>
+      <div><h4>Software in a Box</h4><a href="https://www.softwareinabox.eu/pt/">Início</a><a href="https://argos.softwareinabox.eu/pt/">ARGOS</a><a href="https://datos.softwareinabox.eu/pt/">Espaços de dados</a></div>
+      <div><h4>Contacto</h4><a href="mailto:emilio.mulet@softwareinabox.eu">emilio.mulet@softwareinabox.eu</a><a href="tel:+34601398868">+34 601 398 868</a></div>
+    </div>
+    <div class="legal"><span>© 2026 Software in a Box, marca da Ullswater Investments S.L. Lenovo e ThinkSystem são marcas da Lenovo.</span><nav aria-label="Jurídico"><a href="https://www.softwareinabox.eu/pt/aviso-legal.html">Aviso legal</a><a href="https://www.softwareinabox.eu/pt/privacidad.html">Privacidade</a><a href="https://www.softwareinabox.eu/pt/cookies.html">Cookies</a></nav></div>
+  </div>
+</footer>
+<script>(function(){var b=document.querySelector('.burger'),n=document.getElementById('nav');b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});})();</script>
+<!-- I18N-SW:BEGIN --><style>.i18n-sw{position:fixed;left:16px;bottom:16px;z-index:2147483000;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw details{background:#0B2545;color:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.25);overflow:hidden}.i18n-sw summary{list-style:none;cursor:pointer;padding:10px 14px;display:flex;align-items:center;gap:8px;user-select:none}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{list-style:none;margin:0;padding:4px 0 8px;border-top:1px solid rgba(255,255,255,.15)}.i18n-sw a{display:block;padding:7px 16px;color:#C9D3E0;text-decoration:none;font-weight:500}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Idioma"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>PT</summary><ul><li><a href="https://cognitiv.softwareinabox.eu/escenarios" hreflang="es" lang="es">Español</a></li><li><a href="https://cognitiv.softwareinabox.eu/en/escenarios" hreflang="en" lang="en">English</a></li><li><a href="https://cognitiv.softwareinabox.eu/fr/escenarios" hreflang="fr" lang="fr">Français</a></li><li><a href="https://cognitiv.softwareinabox.eu/de/escenarios" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://cognitiv.softwareinabox.eu/nl/escenarios" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://cognitiv.softwareinabox.eu/pt/escenarios" hreflang="pt" lang="pt" aria-current="true">Português</a></li><li><a href="https://cognitiv.softwareinabox.eu/it/escenarios" hreflang="it" lang="it">Italiano</a></li></ul></details></nav><!-- I18N-SW:END -->
+</body>
+</html>

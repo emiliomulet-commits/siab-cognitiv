@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Server per COGNITIV · Lenovo ThinkSystem | Software in a Box</title>
+<meta property="og:image" content="https://cognitiv.softwareinabox.eu/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://cognitiv.softwareinabox.eu/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="description" content="Catalogo dei server Lenovo ThinkSystem e ThinkEdge su cui si installa COGNITIV, l&#x27;IA sovrana di Software in a Box: inferenza, IA generativa, edge e uso generale.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://cognitiv.softwareinabox.eu/it/servidores">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Software in a Box · COGNITIV"><meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Server per COGNITIV · Lenovo ThinkSystem">
+<meta property="og:description" content="Dieci server Lenovo ThinkSystem e ThinkEdge su cui si installa COGNITIV, dimensionati in base al vostro caso d&#x27;uso.">
+<meta property="og:url" content="https://cognitiv.softwareinabox.eu/it/servidores">
+<meta name="theme-color" content="#101317">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23101317'/%3E%3Crect x='12' y='20' width='40' height='24' fill='none' stroke='%23E4572E' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://www.softwareinabox.eu/assets/fonts.css">
+<link rel="stylesheet" href="/assets/cog.css">
+<style>
+.hero-s{background:var(--black);color:#fff;position:relative;overflow:hidden}
+.hero-s::before{content:"";position:absolute;inset:0;background:radial-gradient(600px 380px at 75% 40%,rgba(228,87,46,.14),transparent 70%)}
+.hero-s .wrap{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;padding-top:72px;padding-bottom:80px}
+.hero-s h1{color:#fff;font-size:clamp(38px,4.6vw,60px);font-weight:800;letter-spacing:-.035em}
+.hero-s .lead{font-size:19px;color:rgba(255,255,255,.75);margin:22px 0 30px;max-width:32em}
+.crumb{font-size:14px;color:rgba(255,255,255,.55);margin-bottom:18px}.crumb a{color:rgba(255,255,255,.75)}
+.rack{width:100%;max-width:520px;margin-left:auto}
+.rack .ru{cursor:pointer}.rack .ru rect:first-child{transition:stroke .2s,fill .2s}
+.rack .ru:hover rect:first-child,.rack .ru:focus-visible rect:first-child,.rack .ru.on rect:first-child{stroke:var(--cog-l);fill:#2A1B17}
+.rack .ru:focus{outline:none}
+.rack .rl{font-family:var(--disp);font-weight:700;font-size:17px;fill:rgba(255,255,255,.85)}
+.rack .ru.on .rl{fill:var(--cog-l)}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px}
+.chip{font:600 15px var(--body);padding:9px 16px;border-radius:999px;border:1.5px solid var(--line);background:#fff;color:var(--text);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--cog);border-color:var(--cog);color:#fff}
+.count{font-size:15px;color:var(--mute);margin-bottom:12px}
+.cat{width:100%;border-collapse:collapse;font-size:15px}
+.cat th,.cat td{padding:16px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:middle}
+.cat thead th{font-family:var(--disp);font-size:13.5px;font-weight:700;color:var(--mute);border-bottom:2px solid var(--ink)}
+.cat tbody th{display:flex;align-items:center;gap:16px;min-width:300px}
+.cat tbody th img{width:110px;height:56px;object-fit:contain;flex:none}
+.cat tbody th span{font-family:var(--disp);font-weight:800;font-size:16.5px;color:var(--ink);letter-spacing:-.01em}
+.cat tbody th small{display:block;font-family:var(--body);font-weight:500;font-size:14px;color:var(--mute);letter-spacing:0;margin-top:3px}
+.cat tr.ref{background:var(--cog-t)}.cat tr.ref small{color:#8E2E12;font-weight:700}
+.cat-note{font-size:14.5px;color:var(--mute);margin-top:16px}
+.factors{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.factors h3{font-size:20px;font-weight:700;padding-top:16px;border-top:3px solid var(--cog);margin-bottom:10px}
+.factors p{font-size:16.5px;color:var(--mute)}
+.path{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:p;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+.path li{padding:30px 24px;border-right:1px solid var(--line);position:relative;counter-increment:p}
+.path li:last-child{border-right:0}
+.path li::before{content:counter(p);display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--cog);color:#fff;font:800 16px var(--disp);margin-bottom:16px}
+.path h3{font-size:19px;font-weight:700;margin-bottom:8px}
+.path .when{font-size:14px;font-weight:600;color:var(--cog);margin-bottom:8px}
+.path p{font-size:15.5px;color:var(--mute)}
+.tech{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:8px}
+.tech h3{font-size:18px;color:#fff;font-weight:700;margin-bottom:8px}
+.tech p{font-size:16px;color:rgba(255,255,255,.7)}
+@media (max-width:1020px){.hero-s .wrap{grid-template-columns:1fr}.rack{margin:0 auto;max-width:460px}.path{grid-template-columns:1fr 1fr}.path li{border-bottom:1px solid var(--line)}}
+@media (max-width:760px){
+  .factors,.tech,.path{grid-template-columns:1fr}
+  .cat thead{display:none}.cat tr{display:block;padding:14px 0;border-bottom:1px solid var(--line)}
+  .cat th,.cat td{display:block;border:0;padding:3px 8px}.cat tbody th{min-width:0}
+  .cat td::before{content:attr(data-l) ": ";font-weight:600;color:var(--ink)}
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebPage",
+   "@id": "https://cognitiv.softwareinabox.eu/it/servidores#webpage",
+   "url": "https://cognitiv.softwareinabox.eu/it/servidores",
+   "name": "Server per COGNITIV · Lenovo ThinkSystem | Software in a Box",
+   "description": "Catalogo dei server Lenovo ThinkSystem e ThinkEdge su cui si installa COGNITIV, l'IA sovrana di Software in a Box: inferenza, IA generativa, edge e uso generale.",
+   "inLanguage": "it",
+   "isPartOf": {
+    "@id": "https://cognitiv.softwareinabox.eu/#website"
+   },
+   "publisher": {
+    "@id": "https://www.softwareinabox.eu/#organization"
+   },
+   "dateModified": "2026-11-10"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "COGNITIV",
+     "item": "https://cognitiv.softwareinabox.eu/it/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Server",
+     "item": "https://cognitiv.softwareinabox.eu/it/servidores"
+    }
+   ]
+  }
+ ]
+}
+</script>
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es" href="https://cognitiv.softwareinabox.eu/servidores">
+<link rel="alternate" hreflang="en" href="https://cognitiv.softwareinabox.eu/en/servidores">
+<link rel="alternate" hreflang="fr" href="https://cognitiv.softwareinabox.eu/fr/servidores">
+<link rel="alternate" hreflang="de" href="https://cognitiv.softwareinabox.eu/de/servidores">
+<link rel="alternate" hreflang="nl" href="https://cognitiv.softwareinabox.eu/nl/servidores">
+<link rel="alternate" hreflang="pt" href="https://cognitiv.softwareinabox.eu/pt/servidores">
+<link rel="alternate" hreflang="it" href="https://cognitiv.softwareinabox.eu/it/servidores">
+<link rel="alternate" hreflang="x-default" href="https://cognitiv.softwareinabox.eu/en/servidores">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Vai al contenuto</a>
+<header class="hd">
+  <div class="wrap">
+    <a class="brand" href="/it/" aria-label="COGNITIV, home"><span class="mark">COGNITIV</span><small>di Software in a Box</small></a>
+    <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Menu principale">
+      <a href="/it/#producto">Prodotto</a> <a href="/it/#por-que">Perché COGNITIV</a> <a href="/it/#servidores">Server</a> <a href="/it/#escenarios">Scenari</a> <a class="btn btn-cog" href="/it/contacto">Richiedi una demo</a>
+    </nav>
+  </div>
+</header>
+<main id="contenido">
+<section class="hero-s">
+  <div class="wrap">
+    <div>
+      <p class="crumb"><a href="/it/">COGNITIV</a> / Server</p>
+      <h1>Il server giusto per la vostra IA</h1>
+      <p class="lead">COGNITIV si installa su server Lenovo ThinkSystem e ThinkEdge, nella vostra sala server o nel vostro data center. Scegliamo il modello in base all'IA che userete, a quante persone la useranno contemporaneamente e a dove verrà installato.</p>
+      <div class="ctas" style="display:flex;gap:14px;flex-wrap:wrap"><a class="btn btn-cog" href="#catalogo">Vedi il catalogo</a><a class="btn btn-ghost" href="/it/contacto">Dimensiona il mio server</a></div>
+    </div>
+    <svg class="rack" viewBox="0 0 560 488" role="group" aria-label="Formati di server per altezza nel rack">
+      <rect x="20" y="6" width="340" height="476" rx="8" fill="none" stroke="#3A3F48" stroke-width="2"/>
+      <g class="ru" data-use="edge" tabindex="0" role="button" aria-label="Filtro: Fuori dal data center">
+        <rect x="40" y="20" width="300" height="18" rx="4" fill="#1C2027" stroke="#3A3F48"/>
+        <rect x="70" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="79" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="88" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="97" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="106" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="115" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="124" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="133" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="142" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="151" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="160" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="169" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="178" y="28" width="5" height="6" rx="1" fill="#2E333B"/><rect x="187" y="28" width="5" height="6" rx="1" fill="#2E333B"/>
+        <circle cx="318" cy="29.0" r="4" fill="#2BB8B8"/>
+        <text x="360" y="34.0" class="rl">Edge · 1U</text></g><g class="ru" data-use="inferencia" tabindex="0" role="button" aria-label="Filtro: Inferenza di IA">
+        <rect x="40" y="48" width="300" height="40" rx="4" fill="#1C2027" stroke="#3A3F48"/>
+        <rect x="70" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="79" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="88" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="97" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="106" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="115" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="124" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="133" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="142" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="151" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="160" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="169" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="178" y="56" width="5" height="24" rx="1" fill="#2E333B"/><rect x="187" y="56" width="5" height="24" rx="1" fill="#2E333B"/>
+        <circle cx="318" cy="68.0" r="4" fill="#2BB8B8"/>
+        <text x="360" y="73.0" class="rl">Inferenza · 2U</text></g><g class="ru" data-use="inferencia" tabindex="0" role="button" aria-label="Filtro: Inferenza di IA">
+        <rect x="40" y="98" width="300" height="62" rx="4" fill="#1C2027" stroke="#3A3F48"/>
+        <rect x="70" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="79" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="88" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="97" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="106" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="115" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="124" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="133" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="142" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="151" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="160" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="169" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="178" y="106" width="5" height="46" rx="1" fill="#2E333B"/><rect x="187" y="106" width="5" height="46" rx="1" fill="#2E333B"/>
+        <circle cx="318" cy="129.0" r="4" fill="#2BB8B8"/>
+        <text x="360" y="134.0" class="rl">Inferenza · 3U</text></g><g class="ru" data-use="genai" tabindex="0" role="button" aria-label="Filtro: IA generativa su larga scala">
+        <rect x="40" y="170" width="300" height="106" rx="4" fill="#1C2027" stroke="#3A3F48"/>
+        <rect x="70" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="79" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="88" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="97" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="106" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="115" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="124" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="133" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="142" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="151" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="160" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="169" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="178" y="178" width="5" height="90" rx="1" fill="#2E333B"/><rect x="187" y="178" width="5" height="90" rx="1" fill="#2E333B"/>
+        <circle cx="318" cy="223.0" r="4" fill="#2BB8B8"/>
+        <text x="360" y="228.0" class="rl">IA generativa · 5U</text></g><g class="ru" data-use="genai" tabindex="0" role="button" aria-label="Filtro: IA generativa su larga scala">
+        <rect x="40" y="286" width="300" height="172" rx="4" fill="#1C2027" stroke="#3A3F48"/>
+        <rect x="70" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="79" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="88" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="97" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="106" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="115" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="124" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="133" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="142" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="151" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="160" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="169" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="178" y="294" width="5" height="156" rx="1" fill="#2E333B"/><rect x="187" y="294" width="5" height="156" rx="1" fill="#2E333B"/>
+        <circle cx="318" cy="372.0" r="4" fill="#2BB8B8"/>
+        <text x="360" y="377.0" class="rl">IA generativa · 8U</text></g>
+    </svg>
+  </div>
+</section>
+
+<section class="sec" id="catalogo">
+  <div class="wrap">
+    <div class="sec-h"><h2>Catalogo dei server</h2><p>Dieci modelli di riferimento. Filtrate per uso o cliccate su un server del rack.</p></div>
+    <div class="chips" role="group" aria-label="Filtra per uso"><button class="chip" aria-pressed="true" data-use="all">Tutti</button><button class="chip" aria-pressed="false" data-use="inferencia">Inferenza di IA</button><button class="chip" aria-pressed="false" data-use="genai">IA generativa su larga scala</button><button class="chip" aria-pressed="false" data-use="edge">Fuori dal data center</button><button class="chip" aria-pressed="false" data-use="general">Uso generale</button></div>
+    <p class="count" id="count" aria-live="polite">10 server</p>
+    <table class="cat">
+      <thead><tr><th scope="col">Modello</th><th scope="col">Uso</th><th scope="col">Formato</th><th scope="col">Processore</th><th scope="col">GPU</th><th scope="col">Memoria</th><th scope="col">Archiviazione</th></tr></thead>
+      <tbody>
+        <tr data-use="inferencia" class="srow ref">
+          <th scope="row"><img src="/assets/srv/sr650i.png" alt="" loading="lazy"><span>ThinkSystem SR650i V4<small>Configurazione di riferimento per COGNITIV</small></span></th>
+          <td data-l="Uso">Inferenza di IA</td><td data-l="Formato">2U</td><td data-l="Procesador">2× Intel Xeon 6530P (32 core)</td><td data-l="GPU">2× NVIDIA RTX PRO 6000 Blackwell</td><td data-l="Memoria">512 GB TruDDR5 6400</td><td data-l="Almacenamiento">6× NVMe + 2× SATA</td>
+        </tr><tr data-use="inferencia" class="srow">
+          <th scope="row"><img src="/assets/srv/sr675.png" alt="" loading="lazy"><span>ThinkSystem SR675 V3<small>Molte GPU per l'inferenza di tutta l'azienda</small></span></th>
+          <td data-l="Uso">Inferenza di IA</td><td data-l="Formato">3U</td><td data-l="Procesador">1–2× AMD EPYC 4ª/5ª gen.</td><td data-l="GPU">Fino a 8 a doppia larghezza o 4 SXM5</td><td data-l="Memoria">24× RDIMM TruDDR5</td><td data-l="Almacenamiento">8× SAS/SATA/NVMe 2,5″</td>
+        </tr><tr data-use="edge" class="srow">
+          <th scope="row"><img src="/assets/srv/se350.png" alt="" loading="lazy"><span>ThinkEdge SE350 V2<small>Filiali, stabilimento o negozio</small></span></th>
+          <td data-l="Uso">Fuori dal data center</td><td data-l="Formato">1U, mezza larghezza</td><td data-l="Procesador">1× Intel Xeon D-2700</td><td data-l="GPU">Senza GPU dedicata</td><td data-l="Memoria">256 GB</td><td data-l="Almacenamiento">4× 2,5″ hot-swap</td>
+        </tr><tr data-use="genai" class="srow">
+          <th scope="row"><img src="/assets/srv/sr685a.png" alt="" loading="lazy"><span>ThinkSystem SR685a V3<small>Grandi modelli generativi</small></span></th>
+          <td data-l="Uso">IA generativa su larga scala</td><td data-l="Formato">8U</td><td data-l="Procesador">2× AMD EPYC 4ª/5ª gen.</td><td data-l="GPU">8× AMD MI300X o NVIDIA H100/H200</td><td data-l="Memoria">24× RDIMM TruDDR5</td><td data-l="Almacenamiento">16× NVMe 2,5″</td>
+        </tr><tr data-use="genai" class="srow">
+          <th scope="row"><img src="/assets/srv/sr780a.png" alt="" loading="lazy"><span>ThinkSystem SR780a V3<small>Raffreddamento a liquido Neptune; anche addestramento</small></span></th>
+          <td data-l="Uso">IA generativa su larga scala</td><td data-l="Formato">5U</td><td data-l="Procesador">2× Intel Xeon 5ª gen.</td><td data-l="GPU">8× NVIDIA SXM H100/H200/B200</td><td data-l="Memoria">32× TruDDR5 5600</td><td data-l="Almacenamiento">16× NVMe U.3</td>
+        </tr><tr data-use="general" class="srow">
+          <th scope="row"><img src="/assets/srv/sr650.png" alt="" loading="lazy"><span>ThinkSystem SR650 V3<small>Server versatile per carichi misti</small></span></th>
+          <td data-l="Uso">Uso generale</td><td data-l="Formato">2U</td><td data-l="Procesador">2× Intel Xeon 5ª gen. (fino a 60 core)</td><td data-l="GPU">Fino a 8 a larghezza singola o 3 a doppia larghezza</td><td data-l="Memoria">32× TruDDR5</td><td data-l="Almacenamiento">40× 2,5″ o 36× NVMe</td>
+        </tr><tr data-use="general" class="srow">
+          <th scope="row"><img src="/assets/srv/sr655.png" alt="" loading="lazy"><span>ThinkSystem SR655 V3<small>Un processore, buon rapporto costo-prestazioni</small></span></th>
+          <td data-l="Uso">Uso generale</td><td data-l="Formato">2U</td><td data-l="Procesador">1× AMD EPYC 4ª/5ª gen.</td><td data-l="GPU">Fino a 8 a larghezza singola o 3 a doppia larghezza</td><td data-l="Memoria">TruDDR5</td><td data-l="Almacenamiento">40× 3,5″/2,5″</td>
+        </tr><tr data-use="general" class="srow">
+          <th scope="row"><img src="/assets/srv/sr630v3.png" alt="" loading="lazy"><span>ThinkSystem SR630 V3<small>Massima densità in poco spazio</small></span></th>
+          <td data-l="Uso">Uso generale</td><td data-l="Formato">1U</td><td data-l="Procesador">2× Intel Xeon 5ª gen. (fino a 60 core)</td><td data-l="GPU">3 GPU a larghezza singola da 75 W</td><td data-l="Memoria">32× TruDDR5</td><td data-l="Almacenamiento">12× 2,5″ o 16× EDSFF</td>
+        </tr><tr data-use="general" class="srow">
+          <th scope="row"><img src="/assets/srv/sr650v2.png" alt="" loading="lazy"><span>ThinkSystem SR650 V2<small>Generazione precedente, carichi critici</small></span></th>
+          <td data-l="Uso">Uso generale</td><td data-l="Formato">2U</td><td data-l="Procesador">2× Intel Xeon Scalable 3ª gen.</td><td data-l="GPU">Compatibile con GPU</td><td data-l="Memoria">TruDDR4</td><td data-l="Almacenamiento">Archiviazione flessibile</td>
+        </tr><tr data-use="general" class="srow">
+          <th scope="row"><img src="/assets/srv/sr630v2.png" alt="" loading="lazy"><span>ThinkSystem SR630 V2<small>Generazione precedente, densità 1U</small></span></th>
+          <td data-l="Uso">Uso generale</td><td data-l="Formato">1U</td><td data-l="Procesador">2× Intel Xeon Scalable</td><td data-l="GPU">Compatibile con GPU</td><td data-l="Memoria">TruDDR4</td><td data-l="Almacenamiento">HPC, cloud o HCI</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="cat-note">Specifiche massime di riferimento della gamma Lenovo ThinkSystem e ThinkEdge. La configurazione finale viene dimensionata in base al vostro caso d'uso. Lenovo, ThinkSystem, ThinkEdge, Neptune e XClarity sono marchi di Lenovo; le immagini dei prodotti appartengono ai rispettivi titolari.</p>
+  </div>
+</section>
+
+<section class="sec why">
+  <div class="wrap">
+    <div class="sec-h"><h2>Come scegliamo il vostro server</h2><p>Tre domande decidono le dimensioni. Le affrontiamo insieme a voi nella fase di analisi.</p></div>
+    <div class="factors">
+      <div><h3>Quale modello di IA userete?</h3><p>Un modello compatto sta su una o due GPU. I grandi modelli generativi richiedono server a otto GPU con collegamenti ad alta velocità tra loro.</p></div>
+      <div><h3>Quante persone contemporaneamente?</h3><p>Un reparto o tutta l'azienda. Il numero di richieste simultanee determina quante GPU e quanta memoria servono.</p></div>
+      <div><h3>Dove verrà installato?</h3><p>Data center, locale tecnico, filiale o stabilimento. Fuori dal data center conviene un apparato edge compatto e silenzioso.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="servicios">
+  <div class="wrap">
+    <div class="sec-h"><h2>Dall'analisi al servizio gestito</h2><p>Vi accompagniamo in quattro passi, dal primo caso d'uso all'operatività quotidiana.</p></div>
+    <ol class="path">
+      <li><h3>Analisi COGNITIV</h3><p class="when">Prima di iniziare</p><p>Valutiamo dati, processi, sicurezza e team per scegliere i casi d'uso a maggiore impatto e dimensionare il server.</p></li>
+      <li><h3>Pilota COGNITIV</h3><p class="when">Circa 3 mesi</p><p>Un caso d'uso reale in funzione sul vostro server, con i vostri dati, pronto per passare in produzione.</p></li>
+      <li><h3>Implementazione e scalabilità</h3><p class="when">Per fasi</p><p>Estendiamo a più reparti e agenti, adattati ai vostri flussi di lavoro, con un unico interlocutore.</p></li>
+      <li><h3>Servizio gestito</h3><p class="when">In esercizio</p><p>Monitoraggio, aggiornamenti, messa a punto dei modelli e supporto perché la piattaforma resti sicura e aggiornata.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec scen">
+  <div class="wrap">
+    <div class="sec-h"><h2>Tecnologia Lenovo inclusa</h2></div>
+    <div class="tech">
+      <div><h3>GPU NVIDIA</h3><p>GPU NVIDIA RTX PRO, HGX H200 e B200, con NVLink nei modelli ad alta densità.</p></div>
+      <div><h3>Raffreddamento Neptune</h3><p>Raffreddamento a liquido a circuito chiuso nei modelli a otto GPU: meno consumi e meno rumore, senza lavori nella vostra sala.</p></div>
+      <div><h3>Gestione XClarity</h3><p>Monitoraggio, aggiornamento e provisioning del server per tutto il suo ciclo di vita, sotto il vostro controllo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <div><h2>Dimensioniamo il vostro server di IA</h2><p>Raccontateci il vostro caso e vi proporremo modello e configurazione.</p></div>
+    <a class="btn" href="/it/contacto">Parla con uno specialista</a>
+  </div>
+</section>
+</main>
+<footer class="ft">
+  <div class="wrap">
+    <div class="cols">
+      <div><span class="mark" style="color:var(--cog-l);font-size:16px">COGNITIV</span><p style="margin-top:14px;max-width:24em">Server di IA proprio su Lenovo ThinkSystem. Un prodotto di Software in a Box.</p></div>
+      <div><h4>COGNITIV</h4><a href="/it/que-es-cognitiv">Cos'è</a><a href="/it/servidores">Server</a><a href="/it/escenarios">Scenari d'uso</a><a href="/it/contacto">Richiedi una demo</a></div>
+      <div><h4>Software in a Box</h4><a href="https://www.softwareinabox.eu/it/">Home</a><a href="https://argos.softwareinabox.eu/it/">ARGOS</a><a href="https://datos.softwareinabox.eu/it/">Spazi di dati</a></div>
+      <div><h4>Contatti</h4><a href="mailto:emilio.mulet@softwareinabox.eu">emilio.mulet@softwareinabox.eu</a><a href="tel:+34601398868">+34 601 398 868</a></div>
+    </div>
+    <div class="legal"><span>© 2026 Software in a Box, marchio di Ullswater Investments S.L. Lenovo e ThinkSystem sono marchi di Lenovo.</span><nav aria-label="Legale"><a href="https://www.softwareinabox.eu/it/aviso-legal.html">Note legali</a><a href="https://www.softwareinabox.eu/it/privacidad.html">Privacy</a><a href="https://www.softwareinabox.eu/it/cookies.html">Cookie</a></nav></div>
+  </div>
+</footer>
+<script>
+(function(){
+  var b=document.querySelector('.burger'),n=document.getElementById('nav');b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+  var chips=[].slice.call(document.querySelectorAll('.chip')),rows=[].slice.call(document.querySelectorAll('.srow')),rus=[].slice.call(document.querySelectorAll('.ru')),c=document.getElementById('count');
+  function f(u,scroll){var n=0;rows.forEach(function(r){var s=u==='all'||r.dataset.use===u;r.style.display=s?'':'none';if(s)n++});
+    chips.forEach(function(x){x.setAttribute('aria-pressed',x.dataset.use===u)});rus.forEach(function(x){x.classList.toggle('on',x.dataset.use===u)});
+    c.textContent=n+(n===1?' servidor':' servidores');if(scroll)document.getElementById('catalogo').scrollIntoView();}
+  chips.forEach(function(x){x.addEventListener('click',function(){f(x.dataset.use)})});
+  rus.forEach(function(x){x.addEventListener('click',function(){f(x.dataset.use,true)});x.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f(x.dataset.use,true)}})});
+})();
+</script>
+<!-- I18N-SW:BEGIN --><style>.i18n-sw{position:fixed;left:16px;bottom:16px;z-index:2147483000;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw details{background:#0B2545;color:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.25);overflow:hidden}.i18n-sw summary{list-style:none;cursor:pointer;padding:10px 14px;display:flex;align-items:center;gap:8px;user-select:none}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{list-style:none;margin:0;padding:4px 0 8px;border-top:1px solid rgba(255,255,255,.15)}.i18n-sw a{display:block;padding:7px 16px;color:#C9D3E0;text-decoration:none;font-weight:500}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Lingua"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>IT</summary><ul><li><a href="https://cognitiv.softwareinabox.eu/servidores" hreflang="es" lang="es">Español</a></li><li><a href="https://cognitiv.softwareinabox.eu/en/servidores" hreflang="en" lang="en">English</a></li><li><a href="https://cognitiv.softwareinabox.eu/fr/servidores" hreflang="fr" lang="fr">Français</a></li><li><a href="https://cognitiv.softwareinabox.eu/de/servidores" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://cognitiv.softwareinabox.eu/nl/servidores" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://cognitiv.softwareinabox.eu/pt/servidores" hreflang="pt" lang="pt">Português</a></li><li><a href="https://cognitiv.softwareinabox.eu/it/servidores" hreflang="it" lang="it" aria-current="true">Italiano</a></li></ul></details></nav><!-- I18N-SW:END -->
+</body>
+</html>

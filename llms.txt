@@ -41,3 +41,5 @@ Datos clave:
 - [Français](https://cognitiv.softwareinabox.eu/fr/)
 - [Deutsch](https://cognitiv.softwareinabox.eu/de/)
 - [Nederlands](https://cognitiv.softwareinabox.eu/nl/)
+- [Português](https://cognitiv.softwareinabox.eu/pt/)
+- [Italiano](https://cognitiv.softwareinabox.eu/it/)

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- SEO:BEGIN -->
+<title>COGNITIV: software di IA sovrana on-premise (CORE, VAULT, HUB, NEXUS, TRACE)</title>
+<meta property="og:image" content="https://cognitiv.softwareinabox.eu/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://cognitiv.softwareinabox.eu/assets/og.jpg">
+
+<meta name="description" content="COGNITIV trasforma un server Lenovo in un Server di IA proprietario: cinque moduli (CORE, VAULT, HUB, NEXUS, TRACE), zero dati fuori dal perimetro, permessi ODRL/UNE 0087 e conformità by design.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://cognitiv.softwareinabox.eu/it/que-es-cognitiv">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Software in a Box · COGNITIV">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="COGNITIV: software di IA sovrana on-premise (CORE, VAULT, HUB, NEXUS, TRACE)">
+<meta property="og:description" content="COGNITIV trasforma un server Lenovo in un Server di IA proprietario: cinque moduli (CORE, VAULT, HUB, NEXUS, TRACE), zero dati fuori dal perimetro, permessi ODRL/UNE 0087 e conformità by design.">
+<meta property="og:url" content="https://cognitiv.softwareinabox.eu/it/que-es-cognitiv">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="COGNITIV: software di IA sovrana on-premise (CORE, VAULT, HUB, NEXUS, TRACE)">
+<meta name="twitter:description" content="COGNITIV trasforma un server Lenovo in un Server di IA proprietario: cinque moduli (CORE, VAULT, HUB, NEXUS, TRACE), zero dati fuori dal perimetro, permessi ODRL/UNE 0087 e conformità by design.">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://cognitiv.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://www.softwareinabox.eu/#organization",
+   "name": "Software in a Box",
+   "url": "https://www.softwareinabox.eu/it/",
+   "description": "Software in a Box sviluppa COGNITIV, il software di IA sovrana che trasforma un server Lenovo ThinkSystem in un Server di IA proprietario: l'inferenza gira nel perimetro del cliente e i dati non escono mai.",
+   "email": "emilio.mulet@softwareinabox.eu",
+   "telephone": "+34601398868",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle Ramírez de Arellano, 17, 4ª planta",
+    "postalCode": "28043",
+    "addressLocality": "Madrid",
+    "addressRegion": "Madrid",
+    "addressCountry": "ES"
+   },
+   "areaServed": "EU",
+   "knowsAbout": [
+    "IA sovrana",
+    "IA on-premise",
+    "compute-to-data",
+    "server Lenovo ThinkSystem",
+    "sovranità del dato",
+    "ODRL",
+    "UNE 0087"
+   ],
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "email": "emilio.mulet@softwareinabox.eu",
+    "telephone": "+34601398868",
+    "availableLanguage": [
+     "es",
+     "en"
+    ]
+   }
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://cognitiv.softwareinabox.eu/#website",
+   "url": "https://cognitiv.softwareinabox.eu/it/",
+   "name": "Software in a Box · COGNITIV",
+   "inLanguage": "it",
+   "publisher": {
+    "@id": "https://www.softwareinabox.eu/#organization"
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://cognitiv.softwareinabox.eu/it/que-es-cognitiv#webpage",
+   "url": "https://cognitiv.softwareinabox.eu/it/que-es-cognitiv",
+   "name": "COGNITIV: software di IA sovrana on-premise (CORE, VAULT, HUB, NEXUS, TRACE)",
+   "description": "COGNITIV trasforma un server Lenovo in un Server di IA proprietario: cinque moduli (CORE, VAULT, HUB, NEXUS, TRACE), zero dati fuori dal perimetro, permessi ODRL/UNE 0087 e conformità by design.",
+   "inLanguage": "it",
+   "isPartOf": {
+    "@id": "https://cognitiv.softwareinabox.eu/#website"
+   },
+   "publisher": {
+    "@id": "https://www.softwareinabox.eu/#organization"
+   },
+   "breadcrumb": {
+    "@id": "https://cognitiv.softwareinabox.eu/it/que-es-cognitiv#breadcrumb"
+   },
+   "about": {
+    "@id": "https://cognitiv.softwareinabox.eu/it/que-es-cognitiv#software"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://cognitiv.softwareinabox.eu/it/que-es-cognitiv#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://cognitiv.softwareinabox.eu/it/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "COGNITIV",
+     "item": "https://cognitiv.softwareinabox.eu/it/que-es-cognitiv"
+    }
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://cognitiv.softwareinabox.eu/it/que-es-cognitiv#software",
+   "name": "COGNITIV",
+   "applicationCategory": "BusinessApplication",
+   "applicationSubCategory": "Servidor de IA soberano on-premise",
+   "operatingSystem": "Lenovo ThinkSystem (on-premise)",
+   "url": "https://cognitiv.softwareinabox.eu/it/que-es-cognitiv",
+   "description": "COGNITIV è il software di IA sovrana di Software in a Box. Esegue i modelli dove vivono i dati (compute-to-data), nel perimetro del cliente: inferenza 100% proprietaria, dati che non escono mai e controllo totale. Cinque moduli: CORE (inferenza), VAULT (governance dei dati e permessi ODRL/UNE 0087), HUB (orchestratore vettoriale), NEXUS (agenti e memoria aziendale) e TRACE (tracciabilità e audit).",
+   "featureList": [
+    "Inferenza 100% proprietaria (compute-to-data)",
+    "Zero egress: i dati non escono mai dal perimetro",
+    "Governance dei dati per ruoli con ODRL / UNE 0087",
+    "Orchestratore vettoriale su ERP, CRM e documenti",
+    "Agenti autonomi con limiti e tracciabilità totale",
+    "Conformità by design: Regolamento sull'IA, GDPR, Data Act, NIS2, DORA"
+   ],
+   "brand": {
+    "@type": "Brand",
+    "name": "COGNITIV"
+   },
+   "publisher": {
+    "@id": "https://www.softwareinabox.eu/#organization"
+   }
+  }
+ ]
+}
+</script>
+<!-- SEO:END -->
+<script src="/support.js"></script>
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es" href="https://cognitiv.softwareinabox.eu/que-es-cognitiv">
+<link rel="alternate" hreflang="en" href="https://cognitiv.softwareinabox.eu/en/que-es-cognitiv">
+<link rel="alternate" hreflang="fr" href="https://cognitiv.softwareinabox.eu/fr/que-es-cognitiv">
+<link rel="alternate" hreflang="de" href="https://cognitiv.softwareinabox.eu/de/que-es-cognitiv">
+<link rel="alternate" hreflang="nl" href="https://cognitiv.softwareinabox.eu/nl/que-es-cognitiv">
+<link rel="alternate" hreflang="pt" href="https://cognitiv.softwareinabox.eu/pt/que-es-cognitiv">
+<link rel="alternate" hreflang="it" href="https://cognitiv.softwareinabox.eu/it/que-es-cognitiv">
+<link rel="alternate" hreflang="x-default" href="https://cognitiv.softwareinabox.eu/en/que-es-cognitiv">
+<!-- I18N:END -->
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://www.softwareinabox.eu/assets/fonts.css">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0}
+  html{scroll-behavior:smooth}
+  a{text-decoration:none;color:inherit}
+  .cgx{display:inline-block;border:0.085em solid currentColor;padding:0.02em 0.28em;border-radius:1px;line-height:1.12}
+  .navlink{transition:color .15s ease}
+  .navlink:hover{color:#C8411B}
+  .btnr{transition:background .16s ease}
+  .btnr:hover{background:#B81C13}
+  .btno{transition:all .16s ease}
+  .btno:hover{background:#fff;color:#16181D;border-color:#fff}
+  .mcard{transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease}
+  .mcard:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(16,19,23,.12);border-color:#C8411B}
+
+  [data-scene] .j{animation-play-state:running}
+  [data-scene].play .j{animation-play-state:running}
+  @media (prefers-reduced-motion: reduce){ [data-scene] .j{animation:none!important;opacity:1!important;transform:none!important} }
+
+  @keyframes co-spin{to{transform:rotate(360deg)}}
+  @keyframes co-pulse{0%{transform:scale(.5);opacity:0}25%{opacity:.7}100%{transform:scale(1.3);opacity:0}}
+  @keyframes co-glow{0%,100%{box-shadow:0 0 0 0 rgba(200,65,27,0)}50%{box-shadow:0 0 38px 5px rgba(200,65,27,.42)}}
+  /* hero box reveal */
+  .co-lid{animation:co-lid 1.1s cubic-bezier(.3,.7,.2,1) .4s forwards}
+  @keyframes co-lid{0%{transform:rotateX(0)}100%{transform:rotateX(-118deg)}}
+  .co-mod{animation:co-mod .7s cubic-bezier(.2,.7,.2,1) both}
+  [data-scene] .co-mod:nth-of-type(1){animation-delay:.6s}
+  [data-scene] .co-mod:nth-of-type(2){animation-delay:.78s}
+  [data-scene] .co-mod:nth-of-type(3){animation-delay:.96s}
+  [data-scene] .co-mod:nth-of-type(4){animation-delay:1.14s}
+  [data-scene] .co-mod:nth-of-type(5){animation-delay:1.32s}
+  @keyframes co-mod{0%{transform:translateY(34px)}100%{transform:translateY(0)}}
+  .co-scan{animation:co-scan 1.8s ease-in-out 1.6s forwards}
+  @keyframes co-scan{0%{transform:translateY(0);opacity:0}15%{opacity:.85}100%{transform:translateY(190px);opacity:0}}
+  /* compute to data */
+  @keyframes c2d-travel{0%{transform:translateX(0);opacity:0}12%{opacity:1}48%{transform:translateX(150px);opacity:1}60%{opacity:0}100%{opacity:0}}
+  @keyframes c2d-ring{0%,45%{opacity:0;transform:scale(.6)}55%{opacity:1;transform:scale(1)}100%{opacity:.5;transform:scale(1)}}
+  @keyframes c2d-glow{0%,100%{opacity:.4;transform:translate(-50%,-50%) scale(.92)}50%{opacity:.85;transform:translate(-50%,-50%) scale(1.06)}}
+  @keyframes c2d-orbit{to{transform:rotate(360deg)}}
+  @keyframes c2d-cloud{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  @keyframes c2d-scan{0%{transform:translateY(0);opacity:0}10%{opacity:.7}100%{transform:translateY(72px);opacity:0}}
+  @keyframes c2d-spark{0%{transform:scale(.4);opacity:0}40%{opacity:1}100%{transform:scale(1.3);opacity:0}}
+  @keyframes c2d-haze{0%,100%{opacity:.4}50%{opacity:.85}}
+  @keyframes c2d-flow{0%{top:0;opacity:0}20%{opacity:1}100%{top:24px;opacity:0}}
+  /* module mini motifs */
+  @keyframes mm-bars{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(1)}}
+  @keyframes mm-tick{0%{opacity:.2}50%{opacity:1}100%{opacity:.2}}
+</style>
+<style id="siab-rwd">
+/* === SIAB responsive · móvil/tablet (cubre formas con y sin espacio tras ':') === */
+@media (max-width: 768px){
+  body{ overflow-x: hidden !important; }
+  [style*="max-width:1240px"],[style*="max-width: 1240px"],[style*="max-width:1200px"],[style*="max-width: 1200px"],[style*="max-width:1140px"],[style*="max-width: 1140px"]{ padding-left:20px !important; padding-right:20px !important; }
+  [style*="grid-template-columns:repeat(4"],[style*="grid-template-columns: repeat(4"]{ grid-template-columns: repeat(2,1fr) !important; }
+  [style*="grid-template-columns:repeat(3"],[style*="grid-template-columns: repeat(3"]{ grid-template-columns: 1fr !important; }
+  [style*="grid-template-columns:1fr 1fr"],[style*="grid-template-columns: 1fr 1fr"]{ grid-template-columns: 1fr !important; gap:32px !important; }
+  [style*="grid-template-columns:1.05fr"],[style*="grid-template-columns: 1.05fr"],[style*="grid-template-columns:1.02fr"],[style*="grid-template-columns: 1.02fr"],[style*="grid-template-columns:1.1fr"],[style*="grid-template-columns: 1.1fr"],[style*="grid-template-columns:230px"],[style*="grid-template-columns: 230px"],[style*="grid-template-columns:1.4fr"],[style*="grid-template-columns: 1.4fr"]{ grid-template-columns: 1fr !important; }
+  [style*="font-size:90px"],[style*="font-size: 90px"]{ font-size:48px !important; line-height:1 !important; }
+  [style*="font-size:72px"],[style*="font-size: 72px"]{ font-size:38px !important; line-height:1.08 !important; }
+  [style*="font-size:58px"],[style*="font-size: 58px"],[style*="font-size:56px"],[style*="font-size: 56px"],[style*="font-size:52px"],[style*="font-size: 52px"],[style*="font-size:50px"],[style*="font-size: 50px"],[style*="font-size:48px"],[style*="font-size: 48px"],[style*="font-size:46px"],[style*="font-size: 46px"]{ font-size:34px !important; line-height:1.12 !important; }
+  [style*="font-size:44px"],[style*="font-size: 44px"],[style*="font-size:42px"],[style*="font-size: 42px"],[style*="font-size:40px"],[style*="font-size: 40px"],[style*="font-size:38px"],[style*="font-size: 38px"]{ font-size:28px !important; line-height:1.15 !important; }
+  [style*="font-size:36px"],[style*="font-size: 36px"],[style*="font-size:34px"],[style*="font-size: 34px"],[style*="font-size:32px"],[style*="font-size: 32px"],[style*="font-size:30px"],[style*="font-size: 30px"]{ font-size:23px !important; line-height:1.2 !important; }
+  [style*="padding:88px"],[style*="padding: 88px"],[style*="padding:84px"],[style*="padding: 84px"],[style*="padding:80px"],[style*="padding: 80px"],[style*="padding:76px"],[style*="padding: 76px"],[style*="padding:72px"],[style*="padding: 72px"],[style*="padding:68px"],[style*="padding: 68px"],[style*="padding:64px"],[style*="padding: 64px"]{ padding-top:44px !important; padding-bottom:44px !important; }
+  [style*="padding:56px 48px"],[style*="padding: 56px 48px"],[style*="padding:54px 48px"],[style*="padding: 54px 48px"],[style*="padding:56px 56px"],[style*="padding: 56px 56px"]{ padding:30px 20px !important; }
+  [style*="min-height:560px"],[style*="min-height: 560px"]{ min-height:440px !important; }
+  [style*="min-height:430px"],[style*="min-height: 430px"]{ min-height:auto !important; }
+  [style*="min-height:420px"],[style*="min-height: 420px"]{ min-height:300px !important; }
+  [style*="min-height:380px"],[style*="min-height: 380px"]{ min-height:260px !important; }
+  .siab-burger{ display:flex !important; }
+  .siab-nav-hidden{ display:none !important; }
+}
+@media (max-width: 480px){
+  [style*="grid-template-columns:repeat(4"],[style*="grid-template-columns: repeat(4"]{ grid-template-columns: 1fr !important; }
+  [style*="grid-template-columns:repeat(2"],[style*="grid-template-columns: repeat(2"]{ grid-template-columns: 1fr !important; }
+  [style*="font-size:58px"],[style*="font-size: 58px"]{ font-size:30px !important; line-height:1.1 !important; }
+  [style*="font-size:72px"],[style*="font-size: 72px"]{ font-size:32px !important; }
+}
+.siab-burger{ display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:8px; margin-left:auto; }
+.siab-burger span{ width:24px; height:2px; background:#16181D; display:block; transition:.2s; }
+.siab-burger.open span:nth-child(1){ transform:translateY(7px) rotate(45deg); }
+.siab-burger.open span:nth-child(2){ opacity:0; }
+.siab-burger.open span:nth-child(3){ transform:translateY(-7px) rotate(-45deg); }
+.siab-mobile-menu{ display:none; position:absolute; top:100%; left:0; right:0; background:#fff; border-bottom:1px solid #E3E5E8; box-shadow:0 12px 24px rgba(0,0,0,.1); flex-direction:column; padding:6px 0; z-index:60; }
+.siab-mobile-menu.open{ display:flex; }
+.siab-mobile-menu a{ padding:14px 24px; font-family:'Montserrat',sans-serif; font-weight:600; font-size:15px; color:#16181D; border-bottom:1px solid #F0F1F3; text-decoration:none; }
+.siab-mobile-menu a:last-child{ border-bottom:none; color:#C8411B; }
+</style>
+<script id="siab-burger-js">
+(function(){
+  function init(){
+    var anchors=document.querySelectorAll('a.navlink');
+    var headers=[];
+    anchors.forEach(function(a){
+      var el=a;
+      while(el && el!==document.body){
+        if(getComputedStyle(el).position==='sticky'){ if(headers.indexOf(el)<0) headers.push(el); break; }
+        el=el.parentElement;
+      }
+    });
+    headers.forEach(function(header){
+      if(header.querySelector('.siab-burger')) return;
+      var links=[].slice.call(header.querySelectorAll('a.navlink, a.btnr'));
+      if(!links.length) return;
+      var group=links[0].parentElement;
+      if(group && group!==header) group.classList.add('siab-nav-hidden');
+      var btn=document.createElement('button');
+      btn.className='siab-burger'; btn.setAttribute('aria-label','Menu');
+      btn.innerHTML='<span></span><span></span><span></span>';
+      var panel=document.createElement('div'); panel.className='siab-mobile-menu';
+      links.forEach(function(l){
+        var a=document.createElement('a');
+        a.href=l.getAttribute('href')||'#';
+        a.textContent=(l.textContent||'').trim();
+        panel.appendChild(a);
+      });
+      btn.addEventListener('click',function(){ panel.classList.toggle('open'); btn.classList.toggle('open'); });
+      panel.addEventListener('click',function(e){ if(e.target.tagName==='A'){ panel.classList.remove('open'); btn.classList.remove('open'); } });
+      var inner=header.firstElementChild||header;
+      inner.appendChild(btn);
+      header.appendChild(panel);
+    });
+  }
+  if(document.readyState!=='loading') setTimeout(init,120); else document.addEventListener('DOMContentLoaded',function(){setTimeout(init,120);});
+})();
+</script>
+</helmet>
+
+<div style="background:#FAFAFA;font-family:'Hanken Grotesk',sans-serif;color:#16181D">
+
+  <!-- NAV -->
+  <div style="position:sticky;top:0;z-index:40;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid #E3E5E8">
+    <div style="max-width:1200px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px">
+      <a href="/it/" style="display:flex;align-items:center;gap:13px">
+        <span style="display:inline-flex;align-items:center;gap:10px;white-space:nowrap"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:17px;letter-spacing:.04em;color:#C8411B;border:2px solid currentColor;padding:3px 9px 4px;line-height:1">COGNITIV</span><span style="font-family:'Montserrat',sans-serif;font-weight:500;font-size:12px;color:#4A4F57;line-height:1.2">di Software in a Box</span></span>
+      </a>
+      <div style="display:flex;align-items:center;gap:24px">
+        <a class="navlink" href="/it/que-es-cognitiv" style="font-size:13.5px;font-weight:600;color:#C8411B"><span class="cgx">COGNITIV</span></a> <a class="navlink" href="/it/#por-que" style="font-size:13.5px;font-weight:500">Perché COGNITIV</a> <a class="navlink" href="/it/escenarios" style="font-size:13.5px;font-weight:500">Scenari d'uso</a> <a class="navlink" href="/it/servidores" style="font-size:13.5px;font-weight:500">Server</a> <a class="btnr" href="#contacto" style="background:#C8411B;color:#fff;font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;padding:10px 20px;border-radius:2px">Richiedi demo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div data-scene="hero" style="position:relative;overflow:hidden;background:#101317;color:#fff">
+    <div style="max-width:1200px;margin:0 auto;padding:84px 32px 80px;display:grid;grid-template-columns:1.02fr .98fr;gap:48px;align-items:center">
+      <div>
+        <div style="display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(200,65,27,.5);border-radius:30px;padding:6px 14px"><span style="width:7px;height:7px;border-radius:50%;background:#C8411B"></span><span style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.14em;color:#fff">IA SOVRANA · SERVER DI IA SOVRANO</span></div>
+        <h1 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:58px;line-height:.98;letter-spacing:-.03em;margin:22px 0 0"><span class="cgx">COGNITIV</span></h1>
+        <p style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:22px;line-height:1.25;color:#C8411B;margin:14px 0 0">La vostra intelligenza artificiale. Sovrana. In una scatola.</p>
+        <p style="font-size:17px;line-height:1.6;color:rgba(255,255,255,.72);margin:20px 0 0;max-width:500px"><span class="cgx">COGNITIV</span> è il software di IA che trasforma un server Lenovo in un <strong style="color:#fff">Server di IA proprietario</strong>: l'intelligenza ragiona all'interno della vostra azienda, i vostri dati non escono mai e il controllo è al 100% vostro.</p>
+        <div style="display:flex;gap:14px;margin-top:32px;flex-wrap:wrap">
+          <a class="btnr" href="#arquitectura" style="background:#C8411B;color:#fff;font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px;padding:14px 28px;border-radius:2px">Vedi l'architettura</a> <a class="btno" href="#contacto" style="background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.4);font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px;padding:14px 28px;border-radius:2px">Richiedi una demo</a>
+        </div>
+      </div>
+      <!-- box reveal -->
+      <div style="position:relative;height:420px;display:flex;align-items:center;justify-content:center;perspective:1100px">
+        <div class="j" style="position:absolute;width:300px;height:300px;border:1px solid rgba(200,65,27,.3);border-radius:50%;animation:co-pulse 4s ease-out infinite"></div>
+        <div class="j" style="position:absolute;width:300px;height:300px;border:1px solid rgba(200,65,27,.3);border-radius:50%;animation:co-pulse 4s ease-out 2s infinite"></div>
+        <div style="position:relative;width:300px">
+          <div class="j co-lid" style="position:absolute;top:-26px;left:0;width:300px;height:26px;background:#1d2128;border:1.5px solid #C8411B;transform-origin:top center;z-index:5"></div>
+          <div style="position:relative;width:300px;background:#16181D;border:1.5px solid #C8411B;border-radius:3px;padding:18px;display:flex;flex-direction:column;gap:10px;overflow:hidden">
+            <div class="j co-scan" style="position:absolute;top:0;left:0;right:0;height:44px;background:linear-gradient(180deg,rgba(200,65,27,.3),rgba(200,65,27,0));z-index:6;pointer-events:none"></div>
+            <div class="j co-mod" style="display:flex;justify-content:space-between;align-items:center;background:#1d2128;border-left:3px solid #C8411B;padding:12px 14px"><span style="font-family:'JetBrains Mono',monospace;font-size:14px;letter-spacing:.1em;color:#fff">CORE</span><span style="font-size:10px;color:rgba(255,255,255,.55)">inferenza</span></div>
+            <div class="j co-mod" style="display:flex;justify-content:space-between;align-items:center;background:#1d2128;border-left:3px solid #C8411B;padding:12px 14px"><span style="font-family:'JetBrains Mono',monospace;font-size:14px;letter-spacing:.1em;color:#fff">VAULT</span><span style="font-size:10px;color:rgba(255,255,255,.55)">dati e permessi</span></div>
+            <div class="j co-mod" style="display:flex;justify-content:space-between;align-items:center;background:#1d2128;border-left:3px solid #C8411B;padding:12px 14px"><span style="font-family:'JetBrains Mono',monospace;font-size:14px;letter-spacing:.1em;color:#fff">HUB</span><span style="font-size:10px;color:rgba(255,255,255,.55)">orchestratore</span></div>
+            <div class="j co-mod" style="display:flex;justify-content:space-between;align-items:center;background:#1d2128;border-left:3px solid #C8411B;padding:12px 14px"><span style="font-family:'JetBrains Mono',monospace;font-size:14px;letter-spacing:.1em;color:#fff">NEXUS</span><span style="font-size:10px;color:rgba(255,255,255,.55)">agenti e memoria</span></div>
+            <div class="j co-mod" style="display:flex;justify-content:space-between;align-items:center;background:#1d2128;border-left:3px solid #C8411B;padding:12px 14px"><span style="font-family:'JetBrains Mono',monospace;font-size:14px;letter-spacing:.1em;color:#fff">TRACE</span><span style="font-size:10px;color:rgba(255,255,255,.55)">audit</span></div>
+          </div>
+          <p style="text-align:center;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.16em;color:rgba(255,255,255,.5);margin:16px 0 0"><span class="cgx">COGNITIV</span> · DENTRO IL VOSTRO SERVER</p>
+        </div>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(255,255,255,.12)">
+      <div style="max-width:1200px;margin:0 auto;padding:24px 32px;display:grid;grid-template-columns:repeat(4,1fr);gap:24px">
+        <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:30px;color:#C8411B;margin:0">0</p><p style="font-size:12px;color:rgba(255,255,255,.6);margin:4px 0 0">dati che escono dal perimetro</p></div>
+        <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:30px;color:#C8411B;margin:0">5</p><p style="font-size:12px;color:rgba(255,255,255,.6);margin:4px 0 0">moduli in un'unica scatola</p></div>
+        <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:30px;color:#C8411B;margin:0">100%</p><p style="font-size:12px;color:rgba(255,255,255,.6);margin:4px 0 0">inferenza proprietaria</p></div>
+        <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:30px;color:#C8411B;margin:0">UNE 0087</p><p style="font-size:12px;color:rgba(255,255,255,.6);margin:4px 0 0">permessi ODRL europei</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUÉ ES + compute to data -->
+  <div data-scene="c2d" style="max-width:1200px;margin:0 auto;padding:88px 32px;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center">
+    <div>
+      <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.18em;color:#C8411B;margin:0">COS'È <span class="cgx">COGNITIV</span></p>
+      <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:38px;line-height:1.08;letter-spacing:-.02em;margin:14px 0 0">L'intelligenza che va al dato, non il dato all'intelligenza.</h2>
+      <p style="font-size:16px;line-height:1.65;color:#4A4F57;margin:18px 0 0"><span class="cgx">COGNITIV</span> esegue i modelli <strong style="color:#16181D">dove vivono i vostri dati</strong>: dentro il vostro server Lenovo, nel vostro perimetro. È il principio <strong style="color:#16181D">compute-to-data</strong>. La sovranità smette di essere una clausola contrattuale e diventa una proprietà fisica del sistema — verificabile staccando il cavo di rete.</p>
+      <div style="display:flex;gap:28px;margin-top:26px">
+        <div style="border-left:2px solid #C8411B;padding-left:14px"><p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:15px;margin:0">Non si noleggia</p><p style="font-size:13px;color:#6B7178;margin:5px 0 0">Si possiede, come un bene</p></div>
+        <div style="border-left:2px solid #C8411B;padding-left:14px"><p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:15px;margin:0">Non dipende da nessuno</p><p style="font-size:13px;color:#6B7178;margin:5px 0 0">Nessuna API né cloud esterni</p></div>
+      </div>
+    </div>
+    <div style="position:relative;background:linear-gradient(160deg,#0e1118 0%,#0a0b10 60%,#0d0a12 100%);border:1px solid #E3E5E8;border-radius:6px;height:340px;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center">
+      <div style="position:absolute;top:40%;left:50%;width:360px;height:210px;transform:translate(-50%,-50%);background:radial-gradient(closest-side, rgba(200,65,27,.16), transparent 72%)"></div>
+      <div style="position:absolute;top:16px;left:0;right:0;display:flex;justify-content:space-between;padding:0 22px;z-index:4">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.12em;color:#2AD2C9">NELLA VOSTRA SEDE</span> <span style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.12em;color:#2E7D4F">ZERO EGRESS</span>
+      </div>
+      <div style="position:absolute;top:36px;left:24px;right:24px;bottom:56px;border:1.5px dashed rgba(42,210,201,.4);border-radius:10px"></div>
+      <div class="j" style="position:absolute;top:48%;left:50%;width:0;height:0;animation:c2d-orbit 9s linear infinite;z-index:2">
+        <div style="position:absolute;transform:rotate(0deg) translateX(155px);width:5px;height:5px;border-radius:50%;background:#2AD2C9;box-shadow:0 0 8px #2AD2C9;margin:-2.5px"></div>
+        <div style="position:absolute;transform:rotate(130deg) translateX(155px);width:5px;height:5px;border-radius:50%;background:#F5B301;box-shadow:0 0 8px #F5B301;margin:-2.5px"></div>
+        <div style="position:absolute;transform:rotate(245deg) translateX(155px);width:5px;height:5px;border-radius:50%;background:#C8411B;box-shadow:0 0 8px #C8411B;margin:-2.5px"></div>
+      </div>
+      <div style="position:relative;z-index:3;text-align:center">
+        <div class="j" style="position:absolute;inset:-16px -12px;background:radial-gradient(closest-side, rgba(200,65,27,.55), transparent 72%);filter:blur(4px);animation:c2d-haze 3s ease-in-out infinite"></div>
+        <span class="cgx" style="position:relative;color:#ff3b30;font-family:'Montserrat',sans-serif;font-weight:900;font-size:25px;letter-spacing:.02em;text-shadow:0 0 18px rgba(200,65,27,.7)">COGNITIV</span>
+        <p style="position:relative;font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.14em;color:rgba(255,255,255,.5);margin:7px 0 0">L'INTELLIGENZA · SOFTWARE</p>
+      </div>
+      <div style="position:relative;z-index:3;width:2px;height:28px;margin:9px 0;background:linear-gradient(180deg,rgba(200,65,27,.8),rgba(42,210,201,.5))">
+        <div class="j" style="position:absolute;top:0;left:-2px;width:6px;height:6px;border-radius:50%;background:#fff;box-shadow:0 0 8px #fff;animation:c2d-flow 1.8s ease-in-out infinite"></div>
+      </div>
+      <div style="position:relative;z-index:3;width:250px;height:58px;background:linear-gradient(180deg,#232833,#14181f);border:1px solid #363c49;border-radius:5px;box-shadow:0 14px 30px rgba(0,0,0,.55);display:flex;align-items:center;gap:9px;padding:0 12px">
+        <div class="j" style="width:5px;height:32px;border-radius:2px;background:#C8411B;box-shadow:0 0 10px #C8411B;animation:mm-tick 1.5s ease-in-out infinite"></div>
+        <div style="display:flex;gap:3px;flex:1"><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div><div style="width:7px;height:36px;background:#0d1017;border:1px solid #2b313c;border-radius:1px"></div></div>
+        <div style="border:1.5px solid #E1251B;padding:2px 6px 3px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:11px;color:#E1251B;line-height:1">Lenovo</span></div>
+      </div>
+      <p style="position:relative;z-index:3;font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.14em;color:rgba(255,255,255,.5);margin:8px 0 0">IL SERVER DI IA · HARDWARE</p>
+      <div style="position:absolute;bottom:14px;left:0;right:0;display:flex;align-items:center;justify-content:center;gap:8px;z-index:4">
+        <div style="position:relative;width:15px;height:15px;border:1.5px solid rgba(255,255,255,.7);border-radius:2px"><div style="position:absolute;top:3px;left:2px;right:2px;height:1.5px;background:rgba(255,255,255,.7)"></div></div>
+        <span style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:12px;color:#fff;letter-spacing:.01em">Software in a Box</span>
+        <span style="font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.1em;color:rgba(255,255,255,.4)">· SVILUPPA <span class="cgx">COGNITIV</span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARQUITECTURA -->
+  <div id="arquitectura" data-scene="arch" style="background:#fff;border-top:1px solid #E3E5E8;border-bottom:1px solid #E3E5E8">
+    <div style="max-width:1200px;margin:0 auto;padding:88px 32px">
+      <div style="text-align:center;max-width:680px;margin:0 auto">
+        <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.18em;color:#C8411B;margin:0">L'ARCHITETTURA</p>
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:38px;letter-spacing:-.02em;margin:14px 0 0">Cinque moduli. Un'unica scatola.</h2>
+        <p style="font-size:15.5px;line-height:1.6;color:#6B7178;margin:14px 0 0"><span class="cgx">COGNITIV</span> non è un chatbot: è un sistema completo di IA sovrana. Ogni modulo copre un livello della promessa — intelligenza, governance, orchestrazione, azione e prova.</p>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px">
+
+        <!-- CORE -->
+        <div class="mcard" style="background:#FAFAFA;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden">
+          <div style="position:relative;height:130px;background:#101317;display:flex;align-items:center;justify-content:center;overflow:hidden">
+            <div class="j" style="position:absolute;width:80px;height:80px;border:1px solid rgba(200,65,27,.6);border-radius:50%;animation:co-pulse 3.4s ease-out infinite"></div>
+            <div class="j" style="width:46px;height:46px;background:#16181D;border:1.5px solid #C8411B;border-radius:50%;display:flex;align-items:center;justify-content:center;animation:co-glow 3.2s ease-in-out infinite"><div style="width:16px;height:16px;border:2px solid #C8411B;border-radius:50%"></div></div>
+          </div>
+          <div style="padding:24px">
+            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.1em;color:#C8411B;font-weight:600">CORE</span><span style="font-size:12px;color:#9aa0a6">Motore di inferenza</span></div>
+            <p style="font-size:13.5px;line-height:1.55;color:#4A4F57;margin:12px 0 0">Esegue modelli aperti (Llama, Mistral…) in locale, compute-to-data. Inferenza 100% proprietaria, senza API esterna. Scegliete voi modello e versione.</p>
+          </div>
+        </div>
+
+        <!-- VAULT -->
+        <div class="mcard" style="background:#FAFAFA;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden">
+          <div style="position:relative;height:130px;background:#101317;display:flex;align-items:center;justify-content:center;gap:7px;overflow:hidden">
+            <div class="j" style="width:8px;height:46px;background:#C8411B;transform-origin:bottom;animation:mm-bars 1.6s ease-in-out infinite"></div>
+            <div class="j" style="width:8px;height:46px;background:rgba(255,255,255,.5);transform-origin:bottom;animation:mm-bars 1.6s ease-in-out .3s infinite"></div>
+            <div style="width:34px;height:42px;border:2px solid #C8411B;border-radius:4px;display:flex;align-items:flex-start;justify-content:center"><div style="width:14px;height:14px;border:2px solid #C8411B;border-bottom:none;border-radius:7px 7px 0 0;margin-top:-7px"></div></div>
+            <div class="j" style="width:8px;height:46px;background:rgba(255,255,255,.5);transform-origin:bottom;animation:mm-bars 1.6s ease-in-out .6s infinite"></div>
+            <div class="j" style="width:8px;height:46px;background:#C8411B;transform-origin:bottom;animation:mm-bars 1.6s ease-in-out .9s infinite"></div>
+          </div>
+          <div style="padding:24px">
+            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.1em;color:#C8411B;font-weight:600">VAULT</span><span style="font-size:12px;color:#9aa0a6">Dati e permessi</span></div>
+            <p style="font-size:13.5px;line-height:1.55;color:#4A4F57;margin:12px 0 0">Governance dei dati by design: permessi per ruolo con ODRL (UNE 0087), la regola viaggia insieme al dato. Cifratura e accesso minimo: ognuno vede solo ciò che il suo ruolo consente.</p>
+          </div>
+        </div>
+
+        <!-- HUB -->
+        <div class="mcard" style="background:#FAFAFA;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden">
+          <div style="position:relative;height:130px;background:#101317;display:flex;align-items:center;justify-content:center;overflow:hidden">
+            <div class="j" style="position:absolute;width:92px;height:92px;animation:co-spin 9s linear infinite">
+              <div style="position:absolute;top:-3px;left:43px;width:7px;height:7px;border-radius:50%;background:#C8411B"></div>
+              <div style="position:absolute;bottom:-3px;left:43px;width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.6)"></div>
+              <div style="position:absolute;left:-3px;top:43px;width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.6)"></div>
+              <div style="position:absolute;right:-3px;top:43px;width:7px;height:7px;border-radius:50%;background:#C8411B"></div>
+            </div>
+            <div style="width:40px;height:40px;background:#16181D;border:1.5px solid #C8411B;border-radius:50%;display:flex;align-items:center;justify-content:center"><div style="width:14px;height:14px;border:2px solid #C8411B;border-radius:50%"></div></div>
+          </div>
+          <div style="padding:24px">
+            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.1em;color:#C8411B;font-weight:600">HUB</span><span style="font-size:12px;color:#9aa0a6">Orchestratore vettoriale</span></div>
+            <p style="font-size:13.5px;line-height:1.55;color:#4A4F57;margin:12px 0 0">Unifica ERP, CRM, magazzino e documenti in una memoria vettoriale. Una domanda attraversa tutta l'operatività. Si federa dentro e fuori l'azienda, con clienti e fornitori, senza cedere dati.</p>
+          </div>
+        </div>
+
+        <!-- NEXUS -->
+        <div class="mcard" style="background:#FAFAFA;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden">
+          <div style="position:relative;height:130px;background:#101317;display:flex;align-items:center;justify-content:center;gap:12px;overflow:hidden">
+            <div class="j" style="width:12px;height:12px;border-radius:50%;background:#C8411B;animation:mm-tick 2.2s ease-in-out infinite"></div>
+            <div style="width:28px;height:1.5px;background:rgba(255,255,255,.3)"></div>
+            <div class="j" style="width:16px;height:16px;border-radius:3px;background:rgba(255,255,255,.6);animation:mm-tick 2.2s ease-in-out .5s infinite"></div>
+            <div style="width:28px;height:1.5px;background:rgba(255,255,255,.3)"></div>
+            <div class="j" style="width:22px;height:22px;border-radius:3px;border:1.5px solid #C8411B;background:#16181D;animation:mm-tick 2.2s ease-in-out 1s infinite"></div>
+          </div>
+          <div style="padding:24px">
+            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.1em;color:#C8411B;font-weight:600">NEXUS</span><span style="font-size:12px;color:#9aa0a6">Agenti e memoria</span></div>
+            <p style="font-size:13.5px;line-height:1.55;color:#4A4F57;margin:12px 0 0">Agenti che svolgono attività complete entro i limiti che fissate. E una memoria aziendale viva: la conoscenza resta in azienda, anche quando le persone cambiano.</p>
+          </div>
+        </div>
+
+        <!-- TRACE -->
+        <div class="mcard" style="background:#FAFAFA;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden">
+          <div style="position:relative;height:130px;background:#101317;display:flex;align-items:center;justify-content:center;gap:6px;overflow:hidden">
+            <div class="j" style="width:30px;height:10px;background:#1d2128;border-left:2px solid #C8411B;animation:mm-tick 1.8s ease-in-out infinite"></div>
+            <div class="j" style="width:30px;height:10px;background:#1d2128;border-left:2px solid #C8411B;animation:mm-tick 1.8s ease-in-out .3s infinite;position:relative;top:14px"></div>
+            <div class="j" style="width:30px;height:10px;background:#1d2128;border-left:2px solid #C8411B;animation:mm-tick 1.8s ease-in-out .6s infinite;position:relative;top:-10px"></div>
+            <div class="j" style="width:30px;height:10px;background:#1d2128;border-left:2px solid #C8411B;animation:mm-tick 1.8s ease-in-out .9s infinite"></div>
+          </div>
+          <div style="padding:24px">
+            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.1em;color:#C8411B;font-weight:600">TRACE</span><span style="font-size:12px;color:#9aa0a6">Tracciabilità e audit</span></div>
+            <p style="font-size:13.5px;line-height:1.55;color:#4A4F57;margin:12px 0 0">Ogni domanda, ogni risposta e ogni azione vengono registrate in modo integro e consultabile. L'IA smette di essere una scatola nera: ciò che non si può verificare non si può governare.</p>
+          </div>
+        </div>
+
+        <!-- equation card -->
+        <div style="display:flex;flex-direction:column;justify-content:center;background:#C8411B;border-radius:6px;padding:28px;color:#fff">
+          <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.14em;color:rgba(255,255,255,.85);margin:0">L'EQUAZIONE</p>
+          <p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:21px;line-height:1.3;margin:14px 0 0"><span class="cgx">COGNITIV</span> + Lenovo ThinkSystem = il vostro Server di IA proprietario</p>
+          <p style="font-size:13.5px;line-height:1.55;color:rgba(255,255,255,.88);margin:14px 0 0">Il software sovrano e la scatola reale, pronti a funzionare.</p>
+          <a class="navlink" href="/it/servidores" style="display:inline-block;font-family:'Montserrat',sans-serif;font-weight:700;font-size:13px;color:#fff;margin-top:16px;border-bottom:1.5px solid #fff;padding-bottom:2px;width:max-content">Vedi i server →</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- CAPACIDADES -->
+  <div style="max-width:1200px;margin:0 auto;padding:88px 32px">
+    <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.18em;color:#C8411B;margin:0">COSA SA FARE</p>
+    <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:36px;letter-spacing:-.02em;margin:14px 0 0;max-width:680px">Intelligenza su tutta l'operatività, non su un documento.</h2>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px">
+      <div style="border-top:2px solid #C8411B;padding:18px 4px 0"><p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:16px;margin:0">Una domanda, tutta l'azienda</p><p style="font-size:13.5px;color:#6B7178;line-height:1.55;margin:8px 0 0">Incrocia ERP, CRM, produzione e documenti in un'unica risposta. Basta silos.</p></div>
+      <div style="border-top:2px solid #C8411B;padding:18px 4px 0"><p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:16px;margin:0">Agenti sotto controllo</p><p style="font-size:13.5px;color:#6B7178;line-height:1.55;margin:8px 0 0">Eseguono processi completi —ordini, fatture, report— con barriere e registro.</p></div>
+      <div style="border-top:2px solid #C8411B;padding:18px 4px 0"><p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:16px;margin:0">Multimodale e multilingue</p><p style="font-size:13.5px;color:#6B7178;line-height:1.55;margin:8px 0 0">PDF, fogli di calcolo, e-mail e bolle scansionate, in più lingue. Tutte le vostre informazioni.</p></div>
+      <div style="border-top:2px solid #C8411B;padding:18px 4px 0"><p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:16px;margin:0">Specializzato nella vostra attività</p><p style="font-size:13.5px;color:#6B7178;line-height:1.55;margin:8px 0 0">Impara il vostro lessico, i vostri prodotti e il vostro modo di lavorare. Non improvvisa: ragiona su ciò che è vostro.</p></div>
+      <div style="border-top:2px solid #C8411B;padding:18px 4px 0"><p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:16px;margin:0">Una memoria che non se ne va</p><p style="font-size:13.5px;color:#6B7178;line-height:1.55;margin:8px 0 0">L'esperienza dei veterani resta in azienda quando cambiano ruolo.</p></div>
+      <div style="border-top:2px solid #C8411B;padding:18px 4px 0"><p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:16px;margin:0">Federato dentro e fuori</p><p style="font-size:13.5px;color:#6B7178;line-height:1.55;margin:8px 0 0">Collabora con clienti e fornitori senza condividere dati. Ognuno resta proprietario dei propri.</p></div>
+    </div>
+  </div>
+
+  <!-- SOBERANÍA STRIP -->
+  <div style="background:#101317;color:#fff">
+    <div style="max-width:1200px;margin:0 auto;padding:72px 32px;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center">
+      <div>
+        <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.18em;color:#C8411B;margin:0">SOVRANITÀ E CONFORMITÀ</p>
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:32px;letter-spacing:-.02em;margin:14px 0 0">La conformità, by design.</h2>
+        <p style="font-size:15.5px;line-height:1.65;color:rgba(255,255,255,.72);margin:16px 0 0">Se il dato non esce dal perimetro e ogni accesso è autorizzato e registrato, gran parte del Regolamento sull'IA, del GDPR, del Data Act, della NIS2 e di DORA è soddisfatta in modo strutturale. <span class="cgx">COGNITIV</span> trasforma la conformità da costo in argomento di vendita.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:12px;border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:9px 16px">Regolamento sull'IA</span> <span style="font-family:'JetBrains Mono',monospace;font-size:12px;border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:9px 16px">GDPR</span> <span style="font-family:'JetBrains Mono',monospace;font-size:12px;border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:9px 16px">Data Act</span> <span style="font-family:'JetBrains Mono',monospace;font-size:12px;border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:9px 16px">NIS2</span> <span style="font-family:'JetBrains Mono',monospace;font-size:12px;border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:9px 16px">DORA</span> <span style="font-family:'JetBrains Mono',monospace;font-size:12px;border:1px solid #C8411B;color:#C8411B;border-radius:20px;padding:9px 16px">ODRL · UNE 0087</span> <span style="font-family:'JetBrains Mono',monospace;font-size:12px;border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:9px 16px">Zero egress</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div id="contacto" style="background:#fff;border-top:1px solid #E3E5E8">
+    <div style="max-width:1200px;margin:0 auto;padding:72px 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:28px">
+      <div>
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:34px;letter-spacing:-.02em;margin:0;max-width:580px">Non posso usare i vostri dati, perché non li ho.</h2>
+        <p style="font-size:16px;color:#6B7178;margin:14px 0 0;max-width:520px"><span class="cgx">COGNITIV</span>: sovranità per architettura, non per contratto. Parliamo del vostro Server di IA.</p>
+      </div>
+      <a class="btnr" href="/it/contacto" style="background:#C8411B;color:#fff;font-family:'Montserrat',sans-serif;font-weight:600;font-size:15px;padding:16px 34px;border-radius:2px;white-space:nowrap">Richiedi una demo</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="background:#0B0D10;color:rgba(255,255,255,.55)">
+    <div style="max-width:1200px;margin:0 auto;padding:30px 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px">
+      <div style="display:flex;align-items:center;gap:12px">
+        <span style="display:inline-flex;align-items:center;gap:10px;white-space:nowrap"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:17px;letter-spacing:.04em;color:#E4572E;border:2px solid currentColor;padding:3px 9px 4px;line-height:1">COGNITIV</span><span style="font-family:'Montserrat',sans-serif;font-weight:500;font-size:12px;color:rgba(255,255,255,.72);line-height:1.2">di Software in a Box</span></span>
+      </div>
+      <span style="font-size:12px">Software in a Box · <span class="cgx">COGNITIV</span>, IA sovrana su hardware Lenovo</span>
+    </div>
+  </div>
+
+
+<div style="background:#0B0D10;border-top:1px solid rgba(255,255,255,.08)"><div style="max-width:1240px;margin:0 auto;padding:16px 32px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:'Hanken Grotesk',sans-serif;font-size:13px;color:rgba(255,255,255,.62)"><span>COGNITIV è un prodotto di <a href="https://www.softwareinabox.eu/it/" style="color:#fff">Software in a Box</a> · <a href="https://argos.softwareinabox.eu/it/" style="color:rgba(255,255,255,.8)">ARGOS</a> · <a href="https://datos.softwareinabox.eu/it/" style="color:rgba(255,255,255,.8)">Spazi di dati</a></span><span style="display:flex;gap:18px;flex-wrap:wrap"><a href="https://www.softwareinabox.eu/it/aviso-legal.html" style="color:rgba(255,255,255,.8)">Note legali</a><a href="https://www.softwareinabox.eu/it/privacidad.html" style="color:rgba(255,255,255,.8)">Privacy</a><a href="https://www.softwareinabox.eu/it/cookies.html" style="color:rgba(255,255,255,.8)">Cookie</a></span></div></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  componentDidMount() {
+    this.obs = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) { e.target.classList.add("play"); this.obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.2 });
+    setTimeout(() => {
+      document.querySelectorAll("[data-scene]").forEach((el) => this.obs.observe(el));
+    }, 60);
+  }
+  componentWillUnmount() { if (this.obs) this.obs.disconnect(); }
+  renderVals() { return {}; }
+}
+</script>
+<!-- I18N-SW:BEGIN --><style>.i18n-sw{position:fixed;left:16px;bottom:16px;z-index:2147483000;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw details{background:#0B2545;color:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.25);overflow:hidden}.i18n-sw summary{list-style:none;cursor:pointer;padding:10px 14px;display:flex;align-items:center;gap:8px;user-select:none}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{list-style:none;margin:0;padding:4px 0 8px;border-top:1px solid rgba(255,255,255,.15)}.i18n-sw a{display:block;padding:7px 16px;color:#C9D3E0;text-decoration:none;font-weight:500}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Lingua"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>IT</summary><ul><li><a href="https://cognitiv.softwareinabox.eu/que-es-cognitiv" hreflang="es" lang="es">Español</a></li><li><a href="https://cognitiv.softwareinabox.eu/en/que-es-cognitiv" hreflang="en" lang="en">English</a></li><li><a href="https://cognitiv.softwareinabox.eu/fr/que-es-cognitiv" hreflang="fr" lang="fr">Français</a></li><li><a href="https://cognitiv.softwareinabox.eu/de/que-es-cognitiv" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://cognitiv.softwareinabox.eu/nl/que-es-cognitiv" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://cognitiv.softwareinabox.eu/pt/que-es-cognitiv" hreflang="pt" lang="pt">Português</a></li><li><a href="https://cognitiv.softwareinabox.eu/it/que-es-cognitiv" hreflang="it" lang="it" aria-current="true">Italiano</a></li></ul></details></nav><!-- I18N-SW:END -->
+</body>
+</html>
