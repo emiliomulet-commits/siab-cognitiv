@@ -12,25 +12,25 @@ Datos clave:
 
 ## Producto
 
-- [COGNITIV](https://cognitiv.softwareinabox.eu/SIAB-COGNITIV.dc.html): qué es, arquitectura de cinco módulos y cómo funciona compute-to-data.
-- [Servidores de IA Lenovo ThinkSystem](https://cognitiv.softwareinabox.eu/SIAB-Servidores.dc.html): catálogo de modelos, comparativa y servicios de implantación.
+- [COGNITIV](https://cognitiv.softwareinabox.eu/que-es-cognitiv): qué es, arquitectura de cinco módulos y cómo funciona compute-to-data.
+- [Servidores de IA Lenovo ThinkSystem](https://cognitiv.softwareinabox.eu/servidores): catálogo de modelos, comparativa y servicios de implantación.
 - [Inicio](https://cognitiv.softwareinabox.eu/): resumen de la propuesta de valor.
 
 ## Los 30 argumentos (5 bloques)
 
-- [Bloque I · Soberanía y control (01–06)](https://cognitiv.softwareinabox.eu/SIAB-Bloque-1.dc.html): soberanía del dato, inferencia propietaria, propiedad frente a alquiler, infraestructura sin nube.
-- [Bloque II · Seguridad, permisos y cumplimiento (07–12)](https://cognitiv.softwareinabox.eu/SIAB-Bloque-2.dc.html): IA por roles, permisos europeos ODRL/UNE 0087, cumplimiento por diseño, auditoría.
-- [Bloque III · Inteligencia y capacidad (13–18)](https://cognitiv.softwareinabox.eu/SIAB-Bloque-3.dc.html): orquestador vectorial, federación, memoria corporativa, especialización.
-- [Bloque IV · Valor económico y de negocio (19–24)](https://cognitiv.softwareinabox.eu/SIAB-Bloque-4.dc.html): coste fijo, ROI, fin de los silos, continuidad.
-- [Bloque V · Estrategia, sector y confianza (25–30)](https://cognitiv.softwareinabox.eu/SIAB-Bloque-5.dc.html): soberanía digital europea, independencia geopolítica, casos por sector, escalabilidad.
+- [Bloque I · Soberanía y control (01–06)](https://cognitiv.softwareinabox.eu/soberania-y-control): soberanía del dato, inferencia propietaria, propiedad frente a alquiler, infraestructura sin nube.
+- [Bloque II · Seguridad, permisos y cumplimiento (07–12)](https://cognitiv.softwareinabox.eu/seguridad-y-cumplimiento): IA por roles, permisos europeos ODRL/UNE 0087, cumplimiento por diseño, auditoría.
+- [Bloque III · Inteligencia y capacidad (13–18)](https://cognitiv.softwareinabox.eu/inteligencia-y-capacidad): orquestador vectorial, federación, memoria corporativa, especialización.
+- [Bloque IV · Valor económico y de negocio (19–24)](https://cognitiv.softwareinabox.eu/valor-economico): coste fijo, ROI, fin de los silos, continuidad.
+- [Bloque V · Estrategia, sector y confianza (25–30)](https://cognitiv.softwareinabox.eu/estrategia-y-confianza): soberanía digital europea, independencia geopolítica, casos por sector, escalabilidad.
 
 ## Casos de uso
 
-- [Casos de éxito](https://cognitiv.softwareinabox.eu/SIAB-Casos-Exito.dc.html): índice de casos.
-- [Industria](https://cognitiv.softwareinabox.eu/SIAB-Caso-Industria.dc.html): ERP, MES, calidad y mantenimiento en una sola pregunta, sin que el dato salga de planta.
-- [Finanzas](https://cognitiv.softwareinabox.eu/SIAB-Caso-Finanzas.dc.html): análisis de riesgo local, auditable y conforme a DORA.
-- [Legal](https://cognitiv.softwareinabox.eu/SIAB-Caso-Legal.dc.html): búsqueda y redacción sobre el fondo documental bajo secreto profesional.
+- [Escenarios de uso](https://cognitiv.softwareinabox.eu/escenarios): escenarios ilustrativos de despliegue por sector.
+- [Industria](https://cognitiv.softwareinabox.eu/escenario-industria): ERP, MES, calidad y mantenimiento en una sola pregunta, sin que el dato salga de planta.
+- [Finanzas](https://cognitiv.softwareinabox.eu/escenario-finanzas): análisis de riesgo local, auditable y conforme a DORA.
+- [Legal](https://cognitiv.softwareinabox.eu/escenario-legal): búsqueda y redacción sobre el fondo documental bajo secreto profesional.
 
 ## Contacto
 
-- [Solicitar una demo](https://cognitiv.softwareinabox.eu/SIAB-Contacto.dc.html)
+- [Solicitar una demo](https://cognitiv.softwareinabox.eu/contacto)
