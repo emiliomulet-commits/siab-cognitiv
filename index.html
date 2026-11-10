@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- SEO:BEGIN -->
-<title>COGNITIV · Servidor de IA soberano sobre Lenovo | Software in a Box</title>
+<title>COGNITIV · IA soberana en su propio servidor | Software in a Box</title>
 <meta name="description" content="COGNITIV es el software de IA soberano que, sobre un servidor Lenovo ThinkSystem, lleva la inteligencia a donde viven tus datos: inferencia 100% propietaria, dentro de tu perímetro y sin depender de hiperescalares.">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="https://cognitiv.softwareinabox.eu/">
@@ -12,12 +12,12 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Software in a Box · COGNITIV">
 <meta property="og:locale" content="es_ES">
-<meta property="og:title" content="COGNITIV · Servidor de IA soberano sobre Lenovo | Software in a Box">
+<meta property="og:title" content="COGNITIV · IA soberana en su propio servidor | Software in a Box">
 <meta property="og:description" content="COGNITIV es el software de IA soberano que, sobre un servidor Lenovo ThinkSystem, lleva la inteligencia a donde viven tus datos: inferencia 100% propietaria, dentro de tu perímetro y sin depender de hiperescalares.">
 <meta property="og:url" content="https://cognitiv.softwareinabox.eu/">
 <meta property="og:image" content="https://cognitiv.softwareinabox.eu/assets/srv/hero-stack.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="COGNITIV · Servidor de IA soberano sobre Lenovo | Software in a Box">
+<meta name="twitter:title" content="COGNITIV · IA soberana en su propio servidor | Software in a Box">
 <meta name="twitter:description" content="COGNITIV es el software de IA soberano que, sobre un servidor Lenovo ThinkSystem, lleva la inteligencia a donde viven tus datos: inferencia 100% propietaria, dentro de tu perímetro y sin depender de hiperescalares.">
 <meta name="twitter:image" content="https://cognitiv.softwareinabox.eu/assets/srv/hero-stack.png">
 <link rel="alternate" type="text/plain" title="llms.txt" href="https://cognitiv.softwareinabox.eu/llms.txt">
@@ -76,7 +76,7 @@
    "@type": "WebPage",
    "@id": "https://cognitiv.softwareinabox.eu/#webpage",
    "url": "https://cognitiv.softwareinabox.eu/",
-   "name": "COGNITIV · Servidor de IA soberano sobre Lenovo | Software in a Box",
+   "name": "COGNITIV · IA soberana en su propio servidor | Software in a Box",
    "description": "COGNITIV es el software de IA soberano que, sobre un servidor Lenovo ThinkSystem, lleva la inteligencia a donde viven tus datos: inferencia 100% propietaria, dentro de tu perímetro y sin depender de hiperescalares.",
    "inLanguage": "es",
    "isPartOf": {
@@ -118,485 +118,349 @@
 }
 </script>
 <!-- SEO:END -->
-<script src="./support.js"></script>
-</head>
-<body>
-<x-dc>
-<helmet>
+<meta name="theme-color" content="#101317">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23101317'/%3E%3Crect x='12' y='20' width='40' height='24' fill='none' stroke='%23E4572E' stroke-width='4'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://www.softwareinabox.eu/assets/fonts.css">
 <style>
-  *{box-sizing:border-box}
-  body{margin:0}
-  html{scroll-behavior:smooth}
-  a{text-decoration:none;color:inherit}
-  .cgx{display:inline-block;border:0.085em solid currentColor;padding:0.02em 0.28em;border-radius:1px;line-height:1.12}
-  .lift{transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease}
-  .lift:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(16,19,23,.12)}
-  .navlink{transition:color .15s ease}
-  .navlink:hover{color:#C8411B}
-  .fnav:hover{color:#fff !important}
-  .btnr{transition:background .16s ease, transform .16s ease}
-  .btnr:hover{background:#B81C13}
-  .btno{transition:all .16s ease}
-  .btno:hover{background:#16181D;color:#fff;border-color:#16181D}
-  .arrowl{transition:gap .16s ease}
-  .arrowl:hover{gap:14px !important}
-
-  /* play gating */
-  [data-scene] .j{animation-play-state:running}
-  [data-scene].play .j{animation-play-state:running}
-  @media (prefers-reduced-motion: reduce){ [data-scene] .j{animation:none!important;opacity:1!important;transform:none!important} }
-
-  @keyframes siab-spin{to{transform:rotate(360deg)}}
-  @keyframes siab-pulse{0%{transform:scale(.4);opacity:0}25%{opacity:.7}100%{transform:scale(1.25);opacity:0}}
-  @keyframes siab-blip{0%,90%{opacity:0;transform:scale(.4)}93%{opacity:1;transform:scale(1.3)}100%{opacity:0;transform:scale(.4)}}
-  @keyframes siab-glow{0%,100%{box-shadow:0 0 0 0 rgba(200,65,27,0)}50%{box-shadow:0 0 40px 6px rgba(200,65,27,.4)}}
-  /* compute to data */
-  @keyframes c2d-travel{0%{transform:translateX(0);opacity:0}12%{opacity:1}48%{transform:translateX(150px);opacity:1}60%{opacity:0}100%{opacity:0}}
-  @keyframes c2d-process{0%,45%{opacity:0;transform:scale(.6)}55%{opacity:1;transform:scale(1)}100%{opacity:.55;transform:scale(1)}}
-  @keyframes c2d-bounce{0%{transform:translateX(0);opacity:0}20%{opacity:1}50%{transform:translateX(34px);opacity:1}80%{transform:translateX(0);opacity:1}100%{opacity:.6}}
-  @keyframes c2d-glow{0%,100%{opacity:.4;transform:translate(-50%,-50%) scale(.92)}50%{opacity:.85;transform:translate(-50%,-50%) scale(1.06)}}
-  @keyframes c2d-orbit{to{transform:rotate(360deg)}}
-  @keyframes c2d-cloud{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
-  @keyframes c2d-scan{0%{transform:translateY(0);opacity:0}10%{opacity:.7}100%{transform:translateY(72px);opacity:0}}
-  @keyframes c2d-spark{0%{transform:scale(.4);opacity:0}40%{opacity:1}100%{transform:scale(1.3);opacity:0}}
-  /* block motifs */
-  @keyframes m-rot{to{transform:rotate(360deg)}}
-  @keyframes m-rise{0%{transform:scaleY(.2);opacity:.3}100%{transform:scaleY(1);opacity:1}}
-  @keyframes m-tick{0%{opacity:.15}50%{opacity:1}100%{opacity:.15}}
-  @keyframes m-flow{0%{transform:translateX(-14px);opacity:0}30%{opacity:1}100%{transform:translateX(14px);opacity:0}}
-  @keyframes m-draw{to{stroke-dashoffset:0}}
-</style>
-<style id="siab-rwd">
-/* === SIAB responsive · móvil/tablet (cubre formas con y sin espacio tras ':') === */
-@media (max-width: 768px){
-  body{ overflow-x: hidden !important; }
-  [style*="max-width:1240px"],[style*="max-width: 1240px"],[style*="max-width:1200px"],[style*="max-width: 1200px"],[style*="max-width:1140px"],[style*="max-width: 1140px"]{ padding-left:20px !important; padding-right:20px !important; }
-  [style*="grid-template-columns:repeat(4"],[style*="grid-template-columns: repeat(4"]{ grid-template-columns: repeat(2,1fr) !important; }
-  [style*="grid-template-columns:repeat(3"],[style*="grid-template-columns: repeat(3"]{ grid-template-columns: 1fr !important; }
-  [style*="grid-template-columns:1fr 1fr"],[style*="grid-template-columns: 1fr 1fr"]{ grid-template-columns: 1fr !important; gap:32px !important; }
-  [style*="grid-template-columns:1.05fr"],[style*="grid-template-columns: 1.05fr"],[style*="grid-template-columns:1.02fr"],[style*="grid-template-columns: 1.02fr"],[style*="grid-template-columns:1.1fr"],[style*="grid-template-columns: 1.1fr"],[style*="grid-template-columns:230px"],[style*="grid-template-columns: 230px"],[style*="grid-template-columns:1.4fr"],[style*="grid-template-columns: 1.4fr"]{ grid-template-columns: 1fr !important; }
-  [style*="font-size:90px"],[style*="font-size: 90px"]{ font-size:48px !important; line-height:1 !important; }
-  [style*="font-size:72px"],[style*="font-size: 72px"]{ font-size:38px !important; line-height:1.08 !important; }
-  [style*="font-size:58px"],[style*="font-size: 58px"],[style*="font-size:56px"],[style*="font-size: 56px"],[style*="font-size:52px"],[style*="font-size: 52px"],[style*="font-size:50px"],[style*="font-size: 50px"],[style*="font-size:48px"],[style*="font-size: 48px"],[style*="font-size:46px"],[style*="font-size: 46px"]{ font-size:34px !important; line-height:1.12 !important; }
-  [style*="font-size:44px"],[style*="font-size: 44px"],[style*="font-size:42px"],[style*="font-size: 42px"],[style*="font-size:40px"],[style*="font-size: 40px"],[style*="font-size:38px"],[style*="font-size: 38px"]{ font-size:28px !important; line-height:1.15 !important; }
-  [style*="font-size:36px"],[style*="font-size: 36px"],[style*="font-size:34px"],[style*="font-size: 34px"],[style*="font-size:32px"],[style*="font-size: 32px"],[style*="font-size:30px"],[style*="font-size: 30px"]{ font-size:23px !important; line-height:1.2 !important; }
-  [style*="padding:88px"],[style*="padding: 88px"],[style*="padding:84px"],[style*="padding: 84px"],[style*="padding:80px"],[style*="padding: 80px"],[style*="padding:76px"],[style*="padding: 76px"],[style*="padding:72px"],[style*="padding: 72px"],[style*="padding:68px"],[style*="padding: 68px"],[style*="padding:64px"],[style*="padding: 64px"]{ padding-top:44px !important; padding-bottom:44px !important; }
-  [style*="padding:56px 48px"],[style*="padding: 56px 48px"],[style*="padding:54px 48px"],[style*="padding: 54px 48px"],[style*="padding:56px 56px"],[style*="padding: 56px 56px"]{ padding:30px 20px !important; }
-  [style*="min-height:560px"],[style*="min-height: 560px"]{ min-height:440px !important; }
-  [style*="min-height:430px"],[style*="min-height: 430px"]{ min-height:auto !important; }
-  [style*="min-height:420px"],[style*="min-height: 420px"]{ min-height:300px !important; }
-  [style*="min-height:380px"],[style*="min-height: 380px"]{ min-height:260px !important; }
-  .siab-burger{ display:flex !important; }
-  .siab-nav-hidden{ display:none !important; }
+:root{
+  --black:#101317; --night:#16191F; --steel:#22262E; --line-d:rgba(255,255,255,.1);
+  --paper:#F4F5F7; --white:#fff; --line:#DDE1E6; --ink:#16181D; --text:#2E333B; --mute:#5D646E;
+  --cog:#C8411B; --cog-l:#E4572E; --cog-t:#FBE9E3; --ok:#2BB8B8; --gold:#C9A227;
+  --disp:'Montserrat',system-ui,sans-serif; --body:'Hanken Grotesk',system-ui,sans-serif;
 }
-@media (max-width: 480px){
-  [style*="grid-template-columns:repeat(4"],[style*="grid-template-columns: repeat(4"]{ grid-template-columns: 1fr !important; }
-  [style*="grid-template-columns:repeat(2"],[style*="grid-template-columns: repeat(2"]{ grid-template-columns: 1fr !important; }
-  [style*="font-size:58px"],[style*="font-size: 58px"]{ font-size:30px !important; line-height:1.1 !important; }
-  [style*="font-size:72px"],[style*="font-size: 72px"]{ font-size:32px !important; }
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);font-size:18px;line-height:1.6;color:var(--text);background:#fff;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+:focus-visible{outline:3px solid var(--cog-l);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--cog-l);color:#fff;padding:10px 16px;font-weight:700;z-index:60}.skip:focus{left:8px}
+h1,h2,h3{font-family:var(--disp);color:var(--ink);letter-spacing:-.025em;line-height:1.08}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:15.5px;padding:15px 24px;border-radius:6px;text-decoration:none;border:1.5px solid transparent;transition:background .2s,border-color .2s}
+.btn-cog{background:var(--cog);color:#fff}.btn-cog:hover{background:#A8370F}
+.btn-ghost{border-color:rgba(255,255,255,.35);color:#fff}.btn-ghost:hover{border-color:#fff}
+.mark{display:inline-block;font-family:var(--disp);font-weight:800;letter-spacing:.04em;border:2px solid currentColor;padding:3px 9px 4px;line-height:1}
+
+/* cabecera */
+.hd{position:sticky;top:0;z-index:40;background:rgba(16,19,23,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line-d)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
+.brand .mark{color:var(--cog-l);font-size:17px}
+.brand small{font-size:13px;color:rgba(255,255,255,.7);font-family:var(--disp);font-weight:500}
+.nav{display:flex;gap:28px;align-items:center}
+.nav a{color:rgba(255,255,255,.75);text-decoration:none;font-size:15.5px;font-weight:500}.nav a:hover{color:#fff}
+.nav .btn{color:#fff;padding:11px 18px;font-size:14.5px}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:8px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
+
+/* hero */
+.hero{background:var(--black);color:#fff;overflow:hidden;position:relative}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(700px 420px at 78% 30%,rgba(228,87,46,.16),transparent 70%);pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1fr 1.02fr;gap:56px;align-items:center;padding-top:84px;padding-bottom:100px}
+.hero h1{color:#fff;font-size:clamp(42px,5.2vw,70px);font-weight:800;letter-spacing:-.035em;line-height:1.02}
+.hero .lead{font-size:20px;color:rgba(255,255,255,.75);margin:26px 0 36px;max-width:31em}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
+
+/* demo: el cable */
+.demo{background:var(--night);border:1px solid var(--line-d);border-radius:14px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.demo-top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;border-bottom:1px solid var(--line-d);background:#1B1F26}
+.demo-top .t{font-family:var(--disp);font-weight:700;font-size:14.5px;color:#fff}
+.sw{display:flex;align-items:center;gap:10px;font-size:14px;color:rgba(255,255,255,.8);cursor:pointer;background:none;border:0;font-family:var(--body)}
+.sw .track{width:46px;height:26px;border-radius:13px;background:var(--ok);position:relative;transition:background .25s}
+.sw .knob{position:absolute;top:3px;left:23px;width:20px;height:20px;border-radius:50%;background:#fff;transition:left .25s}
+.sw[aria-checked="false"] .track{background:#5D646E}
+.sw[aria-checked="false"] .knob{left:3px}
+.demo-body{padding:22px 22px 18px;display:flex;flex-direction:column;gap:14px;min-height:330px}
+.msg{max-width:88%;padding:13px 16px;border-radius:12px;font-size:15.5px;line-height:1.55}
+.msg.q{align-self:flex-end;background:#2A2F38;color:#fff;border-bottom-right-radius:4px}
+.msg.a{align-self:flex-start;background:#fff;color:var(--text);border-bottom-left-radius:4px}
+.msg.a b{color:var(--ink)}
+.src{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.src span{font-size:12.5px;background:var(--cog-t);color:#8E2E12;padding:3px 9px;border-radius:999px;font-weight:600}
+.demo-foot{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line-d)}
+.demo-foot div{padding:14px 18px;font-size:13.5px;color:rgba(255,255,255,.6)}
+.demo-foot div+div{border-left:1px solid var(--line-d)}
+.demo-foot b{display:block;font-family:var(--disp);color:#fff;font-size:17px;letter-spacing:-.01em}
+.net-off{display:none;align-items:center;gap:10px;background:rgba(228,87,46,.12);border:1px solid rgba(228,87,46,.4);color:#FFD5C7;font-size:14px;padding:10px 14px;border-radius:10px}
+.demo.off .net-off{display:flex}
+.demo .note{font-size:12.5px;color:rgba(255,255,255,.45);padding:0 18px 14px}
+
+/* secciones */
+section{scroll-margin-top:72px}
+.sec{padding:112px 0}
+.sec-h{max-width:760px;margin-bottom:56px}
+.sec-h h2{font-size:clamp(32px,3.6vw,48px);font-weight:800}
+.sec-h p{font-size:19px;color:var(--mute);margin-top:18px}
+
+/* módulos: chasis */
+.mods{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;align-items:center}
+.chassis{background:var(--black);border-radius:14px;padding:18px;border:1px solid #2A2F38;box-shadow:inset 0 0 0 6px #191C22}
+.bay{display:grid;grid-template-columns:22px 110px 1fr 70px;align-items:center;gap:16px;padding:16px 18px;border-radius:8px;background:linear-gradient(#1C2027,#171A20);border:1px solid #2A2F38;color:#fff;cursor:pointer;width:100%;text-align:left;font-family:var(--body);transition:border-color .2s,background .2s}
+.bay+.bay{margin-top:8px}
+.bay .led{width:10px;height:10px;border-radius:50%;background:#3A3F48;box-shadow:0 0 0 3px rgba(255,255,255,.04)}
+.bay[aria-pressed="true"]{border-color:var(--cog-l);background:linear-gradient(#2A1B17,#1E1714)}
+.bay[aria-pressed="true"] .led{background:var(--cog-l);box-shadow:0 0 12px var(--cog-l)}
+.bay .n{font-family:var(--disp);font-weight:800;font-size:17px;letter-spacing:.03em}
+.bay .r{font-size:14.5px;color:rgba(255,255,255,.65)}
+.bay .vent{height:18px;background:repeating-linear-gradient(90deg,#2E333B 0 3px,transparent 3px 7px);border-radius:2px}
+.chassis .plate{display:flex;justify-content:space-between;align-items:center;padding:14px 6px 2px;font-size:13px;color:rgba(255,255,255,.5)}
+.chassis .plate .mark{color:var(--cog-l);font-size:12px;border-width:1.5px}
+.mod-detail h3{font-size:34px;font-weight:800}
+.mod-detail .r{font-family:var(--disp);font-weight:600;color:var(--cog);font-size:18px;margin-top:6px}
+.mod-detail p{font-size:18px;color:var(--text);margin-top:18px;max-width:32em}
+.mod-detail ul{list-style:none;margin-top:20px;display:flex;flex-direction:column;gap:10px}
+.mod-detail li{padding-left:22px;position:relative;font-size:16.5px}
+.mod-detail li::before{content:"";position:absolute;left:0;top:.55em;width:9px;height:9px;background:var(--cog);transform:rotate(45deg)}
+.mod-detail .more{display:inline-block;margin-top:26px;font-family:var(--disp);font-weight:700;color:var(--cog);font-size:15.5px}
+
+/* razones */
+.why{background:var(--paper)}
+.reasons{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+.reason{padding:30px 24px 26px;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:12px;border-right:1px solid var(--line);transition:background .2s}
+.reason:last-child{border-right:0}
+.reason:hover,.reason:focus-visible{background:var(--cog-t)}
+.reason h3{font-size:19px;font-weight:700}
+.reason p{font-size:15.5px;color:var(--mute);flex:1}
+.reason .go{font-family:var(--disp);font-weight:700;font-size:14.5px;color:var(--cog)}
+.quote{margin-top:64px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;max-width:900px}
+.quote .bar{width:6px;height:100%;background:var(--cog);border-radius:3px}
+.quote p{font-family:var(--disp);font-weight:700;font-size:clamp(24px,2.6vw,34px);color:var(--ink);letter-spacing:-.02em;line-height:1.25}
+
+/* servidores */
+.srv-t{width:100%;border-collapse:collapse;font-size:16px}
+.srv-t th,.srv-t td{padding:22px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.srv-t thead th{font-family:var(--disp);font-size:14px;font-weight:700;color:var(--mute);border-bottom:2px solid var(--ink)}
+.srv-t tbody th{font-family:var(--disp);font-weight:800;font-size:19px;color:var(--ink);letter-spacing:-.01em}
+.srv-t tbody th small{display:block;font-family:var(--body);font-weight:500;font-size:14.5px;color:var(--mute);letter-spacing:0;margin-top:4px}
+.srv-t tr.rec{background:var(--cog-t)}
+.srv-t tr.rec th small{color:#8E2E12;font-weight:700}
+.srv-note{font-size:15px;color:var(--mute);margin-top:18px;max-width:52em}
+.srv-cta{margin-top:28px}
+.srv-cta a{font-family:var(--disp);font-weight:700;color:var(--cog)}
+
+/* escenarios */
+.scen{background:var(--black);color:rgba(255,255,255,.75)}
+.scen h2{color:#fff}.scen .sec-h p{color:rgba(255,255,255,.7)}
+.scards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.scard{text-decoration:none;color:inherit;border-radius:12px;overflow:hidden;background:var(--night);border:1px solid var(--line-d);display:flex;flex-direction:column;transition:border-color .2s}
+.scard:hover,.scard:focus-visible{border-color:var(--cog-l)}
+.scard img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.scard div{padding:22px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+.scard .s{font-size:14px;font-weight:600;color:var(--cog-l)}
+.scard h3{color:#fff;font-size:20px;font-weight:700}
+.scard p{font-size:15.5px;flex:1}
+.scen .all{margin-top:28px;font-size:15.5px}
+.scen .all a{color:#fff;font-weight:600}
+
+/* cta */
+.cta{padding:96px 0;background:var(--cog);color:#fff}
+.cta .wrap{display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap}
+.cta h2{color:#fff;font-size:clamp(30px,3.4vw,44px);font-weight:800;max-width:18em}
+.cta p{font-size:18px;color:rgba(255,255,255,.85);margin-top:10px}
+.cta .btn{background:#fff;color:var(--cog)}.cta .btn:hover{background:#FFE9E1}
+
+/* pie */
+.ft{background:#0B0D10;color:rgba(255,255,255,.6);font-size:15px;padding:56px 0 28px}
+.ft .cols{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px}
+.ft h4{font-family:var(--disp);color:#fff;font-size:15px;margin-bottom:12px}
+.ft a{display:block;color:rgba(255,255,255,.78);text-decoration:none;line-height:2}.ft a:hover{color:var(--cog-l)}
+.ft .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:40px;padding-top:20px;border-top:1px solid var(--line-d);font-size:14px}
+.ft .legal nav{display:flex;gap:22px}.ft .legal a{display:inline}
+
+@media (max-width:1020px){
+  .hero .wrap,.mods{grid-template-columns:1fr}
+  .reasons{grid-template-columns:1fr 1fr}
+  .reason{border-bottom:1px solid var(--line)}
+  .scards{grid-template-columns:1fr 1fr}
+  .ft .cols{grid-template-columns:1fr 1fr}
 }
-.siab-burger{ display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:8px; margin-left:auto; }
-.siab-burger span{ width:24px; height:2px; background:#16181D; display:block; transition:.2s; }
-.siab-burger.open span:nth-child(1){ transform:translateY(7px) rotate(45deg); }
-.siab-burger.open span:nth-child(2){ opacity:0; }
-.siab-burger.open span:nth-child(3){ transform:translateY(-7px) rotate(-45deg); }
-.siab-mobile-menu{ display:none; position:absolute; top:100%; left:0; right:0; background:#fff; border-bottom:1px solid #E3E5E8; box-shadow:0 12px 24px rgba(0,0,0,.1); flex-direction:column; padding:6px 0; z-index:60; }
-.siab-mobile-menu.open{ display:flex; }
-.siab-mobile-menu a{ padding:14px 24px; font-family:'Montserrat',sans-serif; font-weight:600; font-size:15px; color:#16181D; border-bottom:1px solid #F0F1F3; text-decoration:none; }
-.siab-mobile-menu a:last-child{ border-bottom:none; color:#C8411B; }
+@media (max-width:760px){
+  body{font-size:17px}.wrap{padding:0 20px}
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 20px;background:var(--black);border-bottom:1px solid var(--line-d)}
+  .nav.open{display:flex}.burger{display:block}
+  .brand small{display:none}
+  .sec{padding:76px 0}
+  .hero .wrap{padding-top:52px;padding-bottom:64px}
+  .demo-foot{grid-template-columns:1fr}
+  .demo-foot div+div{border-left:0;border-top:1px solid var(--line-d)}
+  .bay{grid-template-columns:16px 1fr;gap:12px}
+  .bay .vent{display:none}.bay .r{grid-column:2}
+  .reasons,.scards{grid-template-columns:1fr}
+  .srv-t thead{display:none}
+  .srv-t tr{display:block;border-bottom:1px solid var(--line);padding:16px 0}
+  .srv-t th,.srv-t td{display:block;border:0;padding:4px 12px}
+  .srv-t td::before{content:attr(data-l) ": ";font-weight:600;color:var(--ink)}
+  .ft .cols{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
-<script id="siab-burger-js">
-(function(){
-  function init(){
-    var anchors=document.querySelectorAll('a.navlink');
-    var headers=[];
-    anchors.forEach(function(a){
-      var el=a;
-      while(el && el!==document.body){
-        if(getComputedStyle(el).position==='sticky'){ if(headers.indexOf(el)<0) headers.push(el); break; }
-        el=el.parentElement;
-      }
-    });
-    headers.forEach(function(header){
-      if(header.querySelector('.siab-burger')) return;
-      var links=[].slice.call(header.querySelectorAll('a.navlink, a.btnr'));
-      if(!links.length) return;
-      var group=links[0].parentElement;
-      if(group && group!==header) group.classList.add('siab-nav-hidden');
-      var btn=document.createElement('button');
-      btn.className='siab-burger'; btn.setAttribute('aria-label','Menú');
-      btn.innerHTML='<span></span><span></span><span></span>';
-      var panel=document.createElement('div'); panel.className='siab-mobile-menu';
-      links.forEach(function(l){
-        var a=document.createElement('a');
-        a.href=l.getAttribute('href')||'#';
-        a.textContent=(l.textContent||'').trim();
-        panel.appendChild(a);
-      });
-      btn.addEventListener('click',function(){ panel.classList.toggle('open'); btn.classList.toggle('open'); });
-      panel.addEventListener('click',function(e){ if(e.target.tagName==='A'){ panel.classList.remove('open'); btn.classList.remove('open'); } });
-      var inner=header.firstElementChild||header;
-      inner.appendChild(btn);
-      header.appendChild(panel);
-    });
-  }
-  if(document.readyState!=='loading') setTimeout(init,120); else document.addEventListener('DOMContentLoaded',function(){setTimeout(init,120);});
-})();
-</script>
-</helmet>
-
-<div style="background:#FAFAFA;font-family:'Hanken Grotesk',sans-serif;color:#16181D">
-
-  <!-- ===== NAV ===== -->
-  <div style="position:sticky;top:0;z-index:40;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid #E3E5E8">
-    <div style="max-width:1200px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px">
-      <a href="./" style="display:flex;align-items:center;gap:13px">
-        <span style="display:inline-flex;align-items:center;gap:10px;white-space:nowrap"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:17px;letter-spacing:.04em;color:#C8411B;border:2px solid currentColor;padding:3px 9px 4px;line-height:1">COGNITIV</span><span style="font-family:'Montserrat',sans-serif;font-weight:500;font-size:12px;color:#4A4F57;line-height:1.2">por Software in a Box</span></span>
-      </a>
-      <div style="display:flex;align-items:center;gap:26px">
-        <a class="navlink" href="SIAB-COGNITIV.dc.html" style="font-size:13.5px;font-weight:500"><span class="cgx">COGNITIV</span></a>
-        <a class="navlink" href="#bloques" style="font-size:13.5px;font-weight:500">Los 5 bloques</a>
-        <a class="navlink" href="SIAB-Casos-Exito.dc.html" style="font-size:13.5px;font-weight:500">Escenarios de uso</a>
-        <a class="navlink" href="SIAB-Servidores.dc.html" style="font-size:13.5px;font-weight:500">Servidores</a>
-        <a class="navlink" href="#idea" style="font-size:13.5px;font-weight:500">Cómo funciona</a>
-        <a class="btnr" href="#contacto" style="background:#C8411B;color:#fff;font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;padding:10px 20px;border-radius:2px">Solicitar demo</a>
-      </div>
-    </div>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="hd">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="COGNITIV, inicio"><span class="mark">COGNITIV</span><small>por Software in a Box</small></a>
+    <button class="burger" aria-expanded="false" aria-controls="nav">Menú</button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#producto">Producto</a>
+      <a href="#por-que">Por qué COGNITIV</a>
+      <a href="#servidores">Servidores</a>
+      <a href="#escenarios">Escenarios</a>
+      <a class="btn btn-cog" href="SIAB-Contacto.dc.html">Solicitar una demo</a>
+    </nav>
   </div>
+</header>
 
-  <!-- ===== HERO ===== -->
-  <div data-scene="hero" style="position:relative;overflow:hidden;background:#101317;color:#fff">
-    <div style="max-width:1200px;margin:0 auto;padding:88px 32px 80px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center">
-      <div>
-        <p style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.2em;color:#C8411B;margin:0"><span class="cgx">COGNITIV</span> · SERVIDOR DE IA SOBERANO</p>
-        <h1 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:58px;line-height:1.02;letter-spacing:-.025em;margin:22px 0 0">Tu inteligencia artificial.<br>Tu servidor. Tu control.</h1>
-        <p style="font-size:18px;line-height:1.6;color:rgba(255,255,255,.72);margin:24px 0 0;max-width:520px"><strong style="color:#fff"><span class="cgx">COGNITIV</span></strong> es el software de IA soberano que, sobre un servidor Lenovo, lleva la inteligencia a donde viven tus datos. Inferencia 100% propietaria, dentro de tu perímetro, sin depender de hiperescalares.</p>
-        <div style="display:flex;gap:14px;margin-top:34px;flex-wrap:wrap">
-          <a class="btnr" href="SIAB-COGNITIV.dc.html" style="background:#C8411B;color:#fff;font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px;padding:14px 28px;border-radius:2px">Conoce <span class="cgx">COGNITIV</span></a>
-          <a class="btno" href="SIAB-Bloque-1.dc.html" style="background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.4);font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px;padding:14px 28px;border-radius:2px">Ver los 30 argumentos</a>
-        </div>
-      </div>
-      <!-- hero radar / appliance -->
-      <div style="position:relative;height:380px">
-        <div style="position:absolute;top:50%;left:50%;width:360px;height:360px;transform:translate(-50%,-50%)">
-          <div class="j" style="position:absolute;inset:0;border:1px solid rgba(200,65,27,.5);border-radius:50%;animation:siab-pulse 4s ease-out infinite"></div>
-          <div class="j" style="position:absolute;inset:0;border:1px solid rgba(200,65,27,.5);border-radius:50%;animation:siab-pulse 4s ease-out 1.3s infinite"></div>
-          <div class="j" style="position:absolute;inset:0;border:1px solid rgba(200,65,27,.5);border-radius:50%;animation:siab-pulse 4s ease-out 2.6s infinite"></div>
-          <div style="position:absolute;inset:54px;border:1px dashed rgba(255,255,255,.16);border-radius:50%"></div>
-          <div style="position:absolute;inset:104px;border:1px dashed rgba(255,255,255,.1);border-radius:50%"></div>
-          <div class="j" style="position:absolute;top:50%;left:50%;width:180px;height:180px;transform-origin:0 0;animation:siab-spin 7s linear infinite">
-            <div style="position:absolute;top:0;left:0;width:180px;height:180px;background:conic-gradient(from 0deg, rgba(200,65,27,.3), rgba(200,65,27,0) 70deg);border-radius:0 100% 0 0"></div>
-          </div>
-          <div class="j" style="position:absolute;top:74px;left:262px;width:8px;height:8px;border-radius:50%;background:#fff;animation:siab-blip 7s linear infinite"></div>
-          <!-- appliance core -->
-          <div class="j" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:128px;height:96px;background:#16181D;border:1.5px solid #C8411B;display:flex;flex-direction:column;align-items:center;justify-content:center;animation:siab-glow 3.6s ease-in-out infinite">
-            <div style="display:flex;gap:5px;margin-bottom:9px">
-              <div style="width:4px;height:22px;background:#C8411B"></div>
-              <div style="width:4px;height:22px;background:rgba(200,65,27,.5)"></div>
-              <div style="width:4px;height:22px;background:#C8411B"></div>
-              <div style="width:4px;height:22px;background:rgba(200,65,27,.5)"></div>
-            </div>
-            <span style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.14em;color:#fff"><span class="cgx">COGNITIV</span></span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- stats -->
-    <div style="border-top:1px solid rgba(255,255,255,.12)">
-      <div style="max-width:1200px;margin:0 auto;padding:26px 32px;display:grid;grid-template-columns:repeat(4,1fr);gap:24px">
-        <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:32px;color:#C8411B;margin:0">0</p><p style="font-size:12.5px;color:rgba(255,255,255,.6);margin:4px 0 0">bytes que salen de tu perímetro</p></div>
-        <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:32px;color:#C8411B;margin:0">100%</p><p style="font-size:12.5px;color:rgba(255,255,255,.6);margin:4px 0 0">inferencia propietaria</p></div>
-        <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:32px;color:#C8411B;margin:0">30</p><p style="font-size:12.5px;color:rgba(255,255,255,.6);margin:4px 0 0">argumentos en 5 bloques</p></div>
-        <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:32px;color:#C8411B;margin:0">UE</p><p style="font-size:12.5px;color:rgba(255,255,255,.6);margin:4px 0 0">soberanía por diseño</p></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ===== CONOCE <span class="cgx">COGNITIV</span> ===== -->
-  <div style="background:#fff;border-bottom:1px solid #E3E5E8">
-    <div style="max-width:1200px;margin:0 auto;padding:80px 32px;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center">
-      <div>
-        <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.18em;color:#C8411B;margin:0">EL PRODUCTO</p>
-        <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:40px;line-height:1.06;letter-spacing:-.02em;margin:14px 0 0">Conoce <span style="color:#C8411B"><span class="cgx">COGNITIV</span></span></h2>
-        <p style="font-size:16.5px;line-height:1.65;color:#4A4F57;margin:18px 0 0">El software de IA soberano que vive dentro de tu servidor Lenovo. Cinco módulos en una sola caja: inteligencia, gobierno del dato, orquestación, agentes y trazabilidad.</p>
-        <p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:17px;margin:22px 0 0"><span class="cgx">COGNITIV</span> + Lenovo ThinkSystem = tu Servidor de IA propietario</p>
-        <a class="btnr" href="SIAB-COGNITIV.dc.html" style="display:inline-block;background:#C8411B;color:#fff;font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px;padding:14px 28px;border-radius:2px;margin-top:24px">Ver la arquitectura</a>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:12px">
-        <div style="display:flex;justify-content:space-between;align-items:center;background:#101317;border-left:3px solid #C8411B;padding:16px 20px"><span style="font-family:'JetBrains Mono',monospace;font-size:15px;letter-spacing:.1em;color:#fff">CORE</span><span style="font-size:12.5px;color:rgba(255,255,255,.6)">inferencia soberana</span></div>
-        <div style="display:flex;justify-content:space-between;align-items:center;background:#101317;border-left:3px solid #C8411B;padding:16px 20px"><span style="font-family:'JetBrains Mono',monospace;font-size:15px;letter-spacing:.1em;color:#fff">VAULT</span><span style="font-size:12.5px;color:rgba(255,255,255,.6)">datos y permisos</span></div>
-        <div style="display:flex;justify-content:space-between;align-items:center;background:#101317;border-left:3px solid #C8411B;padding:16px 20px"><span style="font-family:'JetBrains Mono',monospace;font-size:15px;letter-spacing:.1em;color:#fff">HUB</span><span style="font-size:12.5px;color:rgba(255,255,255,.6)">orquestador vectorial</span></div>
-        <div style="display:flex;justify-content:space-between;align-items:center;background:#101317;border-left:3px solid #C8411B;padding:16px 20px"><span style="font-family:'JetBrains Mono',monospace;font-size:15px;letter-spacing:.1em;color:#fff">NEXUS</span><span style="font-size:12.5px;color:rgba(255,255,255,.6)">agentes y memoria</span></div>
-        <div style="display:flex;justify-content:space-between;align-items:center;background:#101317;border-left:3px solid #C8411B;padding:16px 20px"><span style="font-family:'JetBrains Mono',monospace;font-size:15px;letter-spacing:.1em;color:#fff">TRACE</span><span style="font-size:12.5px;color:rgba(255,255,255,.6)">trazabilidad total</span></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ===== IDEA + COMPUTE TO DATA ===== -->
-  <div id="idea" data-scene="c2d" style="max-width:1200px;margin:0 auto;padding:92px 32px;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center">
+<main id="contenido">
+<section class="hero">
+  <div class="wrap">
     <div>
-      <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.18em;color:#C8411B;margin:0">LA IDEA QUE LO UNE TODO</p>
-      <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:40px;line-height:1.08;letter-spacing:-.02em;margin:16px 0 0">La inteligencia, los datos y la decisión son del cliente.</h2>
-      <p style="font-size:16.5px;line-height:1.65;color:#4A4F57;margin:20px 0 0">No enviamos tu información a un motor externo. Es el modelo el que se ejecuta donde vive el dato — el principio <strong style="color:#16181D">compute-to-data</strong>. La soberanía deja de ser una promesa que se firma y pasa a ser una propiedad física del sistema: verificable, desconectando el cable de red.</p>
-      <div style="display:flex;gap:28px;margin-top:28px">
-        <div style="border-left:2px solid #C8411B;padding-left:14px"><p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:15px;margin:0">El dato nunca sale</p><p style="font-size:13px;color:#6B7178;margin:5px 0 0">Perímetro físico del cliente</p></div>
-        <div style="border-left:2px solid #C8411B;padding-left:14px"><p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:15px;margin:0">El modelo viaja</p><p style="font-size:13px;color:#6B7178;margin:5px 0 0">La computación va al dato</p></div>
+      <h1>Desconecte el cable. Su IA sigue respondiendo.</h1>
+      <p class="lead">COGNITIV convierte un servidor Lenovo ThinkSystem en su propio servidor de inteligencia artificial. El modelo se ejecuta dentro de su red, sobre sus documentos y sistemas, y ningún dato sale hacia un proveedor externo.</p>
+      <div class="ctas">
+        <a class="btn btn-cog" href="SIAB-Contacto.dc.html">Solicitar una demo</a>
+        <a class="btn btn-ghost" href="#producto">Ver cómo funciona</a>
       </div>
     </div>
-    <!-- c2d diagram -->
-    <div style="position:relative;background:radial-gradient(120% 90% at 70% 40%, #11141b 0%, #0c0e14 100%);border:1px solid #E3E5E8;border-radius:6px;height:340px;overflow:hidden">
-      <span style="position:absolute;top:18px;left:22px;z-index:3;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;color:rgba(255,255,255,.45)">NUBE EXTERNA</span>
-      <span style="position:absolute;top:18px;right:22px;z-index:3;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;color:#2AD2C9">PERÍMETRO DEL CLIENTE</span>
-      <!-- ambient aurora -->
-      <div style="position:absolute;top:-20%;left:-15%;width:70%;height:90%;background:radial-gradient(closest-side, rgba(200,65,27,.22), transparent 70%)"></div>
-      <div style="position:absolute;bottom:-25%;right:-10%;width:75%;height:110%;background:radial-gradient(closest-side, rgba(42,210,201,.16), transparent 70%)"></div>
-      <!-- cloud node left (greyed) -->
-      <div style="position:absolute;top:120px;left:26px;animation:c2d-cloud 5s ease-in-out infinite">
-        <div style="width:96px;height:42px;border-radius:21px;background:linear-gradient(180deg,#2a2230,#181420);border:1px solid rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center"><span style="font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.1em;color:rgba(255,255,255,.5)">CLOUD AI</span></div>
+
+    <div class="demo" id="demo">
+      <div class="demo-top">
+        <span class="t">Asistente interno de planta</span>
+        <button class="sw" role="switch" aria-checked="true" id="sw"><span class="track"><span class="knob"></span></span><span id="sw-l">Internet conectado</span></button>
       </div>
-      <!-- perimeter box right -->
-      <div style="position:absolute;top:58px;right:22px;width:248px;height:236px;border:1.5px dashed rgba(42,210,201,.55);border-radius:8px"></div>
-      <!-- glow behind server -->
-      <div class="j" style="position:absolute;top:172px;right:146px;width:240px;height:170px;background:radial-gradient(closest-side, rgba(200,65,27,.4), rgba(31,78,121,.12) 55%, transparent 72%);filter:blur(4px);animation:c2d-glow 3.4s ease-in-out infinite"></div>
-      <!-- contained orbit particles -->
-      <div class="j" style="position:absolute;top:172px;right:146px;width:0;height:0;animation:c2d-orbit 7s linear infinite">
-        <div style="position:absolute;transform:rotate(0deg) translateX(96px);width:6px;height:6px;border-radius:50%;background:#2AD2C9;box-shadow:0 0 8px #2AD2C9;margin:-3px"></div>
-        <div style="position:absolute;transform:rotate(120deg) translateX(96px);width:6px;height:6px;border-radius:50%;background:#C8411B;box-shadow:0 0 8px #C8411B;margin:-3px"></div>
-        <div style="position:absolute;transform:rotate(240deg) translateX(96px);width:6px;height:6px;border-radius:50%;background:#F5B301;box-shadow:0 0 8px #F5B301;margin:-3px"></div>
-      </div>
-      <!-- clean Lenovo server (CSS) -->
-      <div style="position:absolute;top:172px;right:146px;transform:translate(50%,-50%);width:172px;height:90px;background:linear-gradient(180deg,#232833,#14181f);border:1px solid #3a4150;border-radius:7px;box-shadow:0 16px 34px rgba(0,0,0,.55),0 0 22px rgba(200,65,27,.2);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;overflow:hidden">
-        <div class="j" style="position:absolute;top:0;left:8%;right:8%;height:24px;background:linear-gradient(180deg,rgba(42,210,201,.5),transparent);animation:c2d-scan 3.2s ease-in-out infinite"></div>
-        <div style="display:flex;gap:6px;align-items:flex-end;height:30px">
-          <div style="width:6px;height:24px;background:#C8411B;box-shadow:0 0 8px rgba(200,65,27,.7)"></div>
-          <div style="width:6px;height:30px;background:#C8411B;box-shadow:0 0 8px rgba(200,65,27,.7)"></div>
-          <div style="width:6px;height:20px;background:#C8411B;box-shadow:0 0 8px rgba(200,65,27,.7)"></div>
-          <div style="width:6px;height:28px;background:#C8411B;box-shadow:0 0 8px rgba(200,65,27,.7)"></div>
-        </div>
-        <div style="display:flex;align-items:center;gap:8px">
-          <span class="cgx" style="color:#ff3b30;font-family:'Montserrat',sans-serif;font-weight:800;font-size:11px">COGNITIV</span>
-          <div style="border:1px solid #E1251B;padding:1px 5px 2px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:10px;color:#E1251B;line-height:1">Lenovo</span></div>
+      <div class="demo-body">
+        <div class="net-off" role="status">Sin conexión a Internet. COGNITIV responde igual desde su servidor.</div>
+        <div class="msg q">¿Qué proveedores tuvieron incidencias de calidad en el lote de octubre y qué dice el contrato sobre penalizaciones?</div>
+        <div class="msg a">
+          <b>Dos proveedores:</b> el proveedor A (3 no conformidades en soldadura) y el proveedor B (1 en tolerancias). Ambos contratos prevén una penalización del 2 % del lote por cada no conformidad confirmada, con un tope del 10 %.
+          <div class="src"><span>Informe de calidad · oct.</span><span>ERP · pedidos</span><span>Contratos marco 2025</span></div>
         </div>
       </div>
-      <!-- processing ring on server -->
-      <div class="j" style="position:absolute;top:172px;right:146px;width:118px;height:118px;border:1.5px solid rgba(200,65,27,.7);border-radius:50%;transform:translate(50%,-50%);animation:c2d-process 4.5s ease-in-out infinite"></div>
-      <!-- model chip travels from cloud to server -->
-      <div class="j" style="position:absolute;top:128px;left:128px;display:flex;align-items:center;gap:6px;animation:c2d-travel 4.5s ease-in-out infinite">
-        <div style="width:30px;height:30px;background:#C8411B;border-radius:5px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 14px rgba(200,65,27,.6)"><div style="width:12px;height:12px;border:2px solid #fff;border-radius:50%"></div></div>
-        <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:#ff8a82">MODELO</span>
+      <div class="demo-foot">
+        <div><b>Su servidor</b>dónde se procesó</div>
+        <div><b>0 bytes</b>enviados fuera de su red</div>
+        <div><b id="net-v">Conectado</b>estado de Internet</div>
       </div>
-      <!-- spark on arrival -->
-      <div class="j" style="position:absolute;top:165px;right:188px;width:18px;height:18px;border-radius:50%;background:radial-gradient(closest-side,#fff,rgba(245,179,1,.4),transparent);animation:c2d-spark 4.5s ease-in-out 1.3s infinite"></div>
-      <div style="position:absolute;bottom:16px;left:0;right:0;text-align:center;z-index:3;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.1em;color:#2AD2C9">COMPUTE-TO-DATA · EL DATO NO SE MUEVE</div>
+      <p class="note">Demostración ilustrativa con datos ficticios.</p>
     </div>
   </div>
+</section>
 
-  <!-- ===== BLOQUES ===== -->
-  <div id="bloques" style="background:#fff;border-top:1px solid #E3E5E8;border-bottom:1px solid #E3E5E8">
-    <div style="max-width:1200px;margin:0 auto;padding:88px 32px">
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px">
-        <div>
-          <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.18em;color:#C8411B;margin:0">LOS 30 ARGUMENTOS</p>
-          <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:38px;letter-spacing:-.02em;margin:14px 0 0">Cinco bloques. Una sola idea.</h2>
-        </div>
-        <p style="font-size:15px;color:#6B7178;max-width:380px;line-height:1.6">Cada bloque reúne seis argumentos con su infografía animada. Entra en el que te interese.</p>
+<section class="sec" id="producto">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>Cinco módulos en una sola caja</h2>
+      <p>COGNITIV reúne en su servidor todo lo necesario para usar IA con los datos de la empresa: el modelo, los permisos, la búsqueda, los agentes y el registro de cada respuesta.</p>
+    </div>
+    <div class="mods">
+      <div class="chassis" role="group" aria-label="Módulos de COGNITIV">
+        <button class="bay" aria-pressed="true" data-m="0"><i class="led"></i><span class="n">CORE</span><span class="r">Motor de inferencia</span><span class="vent"></span></button>
+        <button class="bay" aria-pressed="false" data-m="1"><i class="led"></i><span class="n">VAULT</span><span class="r">Datos y permisos</span><span class="vent"></span></button>
+        <button class="bay" aria-pressed="false" data-m="2"><i class="led"></i><span class="n">HUB</span><span class="r">Orquestador vectorial</span><span class="vent"></span></button>
+        <button class="bay" aria-pressed="false" data-m="3"><i class="led"></i><span class="n">NEXUS</span><span class="r">Agentes y memoria</span><span class="vent"></span></button>
+        <button class="bay" aria-pressed="false" data-m="4"><i class="led"></i><span class="n">TRACE</span><span class="r">Trazabilidad y auditoría</span><span class="vent"></span></button>
+        <div class="plate"><span>Lenovo ThinkSystem</span><span class="mark">COGNITIV</span></div>
       </div>
-
-      <div data-scene="motifs" style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px">
-
-        <!-- Bloque I -->
-        <a class="lift" href="SIAB-Bloque-1.dc.html" style="display:block;background:#FAFAFA;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden">
-          <div style="position:relative;height:150px;background:#101317;display:flex;align-items:center;justify-content:center;overflow:hidden">
-            <div class="j" style="position:absolute;width:108px;height:108px;border:1px dashed rgba(46,125,79,.7);border-radius:50%;animation:m-rot 14s linear infinite"></div>
-            <div class="j" style="position:absolute;width:72px;height:72px;border:1px solid rgba(200,65,27,.6);border-radius:50%;animation:siab-pulse 3.5s ease-out infinite"></div>
-            <div style="width:44px;height:44px;background:#16181D;border:1.5px solid #C8411B;border-radius:3px"></div>
-          </div>
-          <div style="padding:22px 22px 24px">
-            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:13px;color:#C8411B">I</span><span style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:18px">Soberanía y control</span></div>
-            <p style="font-size:13.5px;line-height:1.55;color:#6B7178;margin:10px 0 0">La inteligencia, los datos y la decisión son del cliente.</p>
-            <p class="arrowl" style="display:flex;gap:8px;align-items:center;font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;color:#C8411B;margin:16px 0 0">Argumentos 01–06 →</p>
-          </div>
-        </a>
-
-        <!-- Bloque II -->
-        <a class="lift" href="SIAB-Bloque-2.dc.html" style="display:block;background:#FAFAFA;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden">
-          <div style="position:relative;height:150px;background:#101317;display:flex;align-items:center;justify-content:center;gap:8px;overflow:hidden">
-            <div class="j" style="width:8px;height:48px;background:#C8411B;transform-origin:bottom;animation:m-rise 1.6s ease-out infinite alternate"></div>
-            <div class="j" style="width:8px;height:48px;background:rgba(255,255,255,.5);transform-origin:bottom;animation:m-rise 1.6s ease-out .3s infinite alternate"></div>
-            <div class="j" style="width:8px;height:48px;background:#C8411B;transform-origin:bottom;animation:m-rise 1.6s ease-out .6s infinite alternate"></div>
-            <div class="j" style="width:8px;height:48px;background:rgba(255,255,255,.5);transform-origin:bottom;animation:m-rise 1.6s ease-out .9s infinite alternate"></div>
-          </div>
-          <div style="padding:22px 22px 24px">
-            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:13px;color:#C8411B">II</span><span style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:18px">Seguridad y cumplimiento</span></div>
-            <p style="font-size:13.5px;line-height:1.55;color:#6B7178;margin:10px 0 0">La forma más segura y conforme de desplegar IA en la empresa.</p>
-            <p class="arrowl" style="display:flex;gap:8px;align-items:center;font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;color:#C8411B;margin:16px 0 0">Argumentos 07–12 →</p>
-          </div>
-        </a>
-
-        <!-- Bloque III -->
-        <a class="lift" href="SIAB-Bloque-3.dc.html" style="display:block;background:#FAFAFA;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden">
-          <div style="position:relative;height:150px;background:#101317;display:flex;align-items:center;justify-content:center;overflow:hidden">
-            <div class="j" style="position:absolute;width:96px;height:96px;animation:m-rot 9s linear infinite">
-              <div style="position:absolute;top:-3px;left:45px;width:7px;height:7px;border-radius:50%;background:#C8411B"></div>
-              <div style="position:absolute;bottom:-3px;left:45px;width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.6)"></div>
-              <div style="position:absolute;left:-3px;top:45px;width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.6)"></div>
-              <div style="position:absolute;right:-3px;top:45px;width:7px;height:7px;border-radius:50%;background:#C8411B"></div>
-            </div>
-            <div style="width:40px;height:40px;background:#16181D;border:1.5px solid #C8411B;border-radius:50%;display:flex;align-items:center;justify-content:center"><div style="width:14px;height:14px;border:2px solid #C8411B;border-radius:50%"></div></div>
-          </div>
-          <div style="padding:22px 22px 24px">
-            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:13px;color:#C8411B">III</span><span style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:18px">Inteligencia y capacidad</span></div>
-            <p style="font-size:13.5px;line-height:1.55;color:#6B7178;margin:10px 0 0">Orquesta todo el negocio, no responde sobre un documento.</p>
-            <p class="arrowl" style="display:flex;gap:8px;align-items:center;font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;color:#C8411B;margin:16px 0 0">Argumentos 13–18 →</p>
-          </div>
-        </a>
-
-        <!-- Bloque IV -->
-        <a class="lift" href="SIAB-Bloque-4.dc.html" style="display:block;background:#FAFAFA;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden">
-          <div style="position:relative;height:150px;background:#101317;display:flex;align-items:flex-end;justify-content:center;padding:24px;overflow:hidden">
-            <svg viewBox="0 0 160 80" style="width:140px;height:70px">
-              <line x1="0" y1="64" x2="160" y2="64" stroke="rgba(255,255,255,.18)" stroke-width="1"/>
-              <path class="j" d="M0,60 L160,58" stroke="#2E7D4F" stroke-width="2.5" fill="none" stroke-dasharray="200" stroke-dashoffset="200" style="animation:m-draw 2.6s ease-out forwards"/>
-              <path class="j" d="M0,62 C50,58 90,30 160,6" stroke="#C8411B" stroke-width="2.5" fill="none" stroke-dasharray="240" stroke-dashoffset="240" style="animation:m-draw 2.6s ease-out .3s forwards"/>
-            </svg>
-          </div>
-          <div style="padding:22px 22px 24px">
-            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:13px;color:#C8411B">IV</span><span style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:18px">Valor económico</span></div>
-            <p style="font-size:13.5px;line-height:1.55;color:#6B7178;margin:10px 0 0">La soberanía se traduce en euros, en tiempo y en ventaja.</p>
-            <p class="arrowl" style="display:flex;gap:8px;align-items:center;font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;color:#C8411B;margin:16px 0 0">Argumentos 19–24 →</p>
-          </div>
-        </a>
-
-        <!-- Bloque V -->
-        <a class="lift" href="SIAB-Bloque-5.dc.html" style="display:block;background:#FAFAFA;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden">
-          <div style="position:relative;height:150px;background:#101317;display:flex;align-items:center;justify-content:center;gap:10px;overflow:hidden">
-            <div class="j" style="width:10px;height:10px;border-radius:50%;background:#C8411B;animation:m-tick 2.4s ease-in-out infinite"></div>
-            <div class="j" style="width:34px;height:1.5px;background:rgba(255,255,255,.3)"></div>
-            <div class="j" style="width:14px;height:14px;border-radius:50%;background:rgba(255,255,255,.6);animation:m-tick 2.4s ease-in-out .5s infinite"></div>
-            <div class="j" style="width:34px;height:1.5px;background:rgba(255,255,255,.3)"></div>
-            <div class="j" style="width:20px;height:20px;border-radius:50%;border:1.5px solid #C8411B;background:#16181D;animation:m-tick 2.4s ease-in-out 1s infinite"></div>
-          </div>
-          <div style="padding:22px 22px 24px">
-            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:13px;color:#C8411B">V</span><span style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:18px">Estrategia y confianza</span></div>
-            <p style="font-size:13.5px;line-height:1.55;color:#6B7178;margin:10px 0 0">Europa, geopolítica, sector y el acompañamiento que da resultado.</p>
-            <p class="arrowl" style="display:flex;gap:8px;align-items:center;font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;color:#C8411B;margin:16px 0 0">Argumentos 25–30 →</p>
-          </div>
-        </a>
-
-        <!-- summary card -->
-        <div style="display:flex;flex-direction:column;justify-content:center;background:#C8411B;border-radius:6px;padding:28px;color:#fff">
-          <p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:46px;line-height:1;margin:0">30</p>
-          <p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:18px;margin:10px 0 0">argumentos de venta</p>
-          <p style="font-size:13.5px;line-height:1.55;color:rgba(255,255,255,.85);margin:12px 0 0">Cada uno responde a una duda real del cliente. Todos apuntan a lo mismo: soberanía por arquitectura, no por contrato.</p>
-        </div>
-
-      </div>
+      <div class="mod-detail" aria-live="polite" id="mod-detail"></div>
     </div>
   </div>
+</section>
 
-  <!-- ===== SERVIDORES LENOVO ===== -->
-  <div id="servidores" style="max-width:1200px;margin:0 auto;padding:90px 32px">
-    <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px">
-      <div>
-        <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.18em;color:#C8411B;margin:0">EL HARDWARE · LENOVO THINKSYSTEM</p>
-        <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:38px;letter-spacing:-.02em;margin:14px 0 0">La caja es real. Y es Lenovo.</h2>
-      </div>
-      <p style="font-size:15px;color:#6B7178;max-width:400px;line-height:1.6"><span class="cgx">COGNITIV</span> corre sobre servidores Lenovo ThinkSystem optimizados para inferencia de IA, con refrigeración líquida Neptune® y gestión XClarity®.</p>
+<section class="sec why" id="por-que">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>Por qué COGNITIV</h2>
+      <p>Cinco razones para tener su IA en casa. Cada una tiene su página con los detalles.</p>
     </div>
-
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px">
-
-      <!-- ThinkEdge -->
-      <div class="lift" style="background:#fff;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden;display:flex;flex-direction:column">
-        <div style="width:100%;height:180px;display:flex;align-items:center;justify-content:center;background:#fff;border-bottom:1px solid #E3E5E8"><img src="assets/srv/se350.png" alt="ThinkEdge SE360 V2" style="max-width:88%;max-height:150px;object-fit:contain"/></div>
-        <div style="padding:24px;flex:1;display:flex;flex-direction:column">
-          <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;color:#C8411B;margin:0">PERÍMETRO / EDGE</p>
-          <h3 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:21px;margin:8px 0 0">ThinkEdge SE360 V2</h3>
-          <p style="font-size:13.5px;line-height:1.55;color:#6B7178;margin:10px 0 0">Inferencia soberana en delegaciones, planta o tienda. Compacto, silencioso y robusto para entornos fuera del CPD.</p>
-          <div style="margin-top:16px;border-top:1px solid #E3E5E8;padding-top:14px;display:flex;flex-direction:column;gap:7px;font-size:12.5px;color:#4A4F57">
-            <div style="display:flex;justify-content:space-between"><span style="color:#9aa0a6">Formato</span><span>Short-depth / edge</span></div>
-            <div style="display:flex;justify-content:space-between"><span style="color:#9aa0a6">GPU</span><span>NVIDIA L4 / L40S</span></div>
-            <div style="display:flex;justify-content:space-between"><span style="color:#9aa0a6">Uso</span><span>Modelos compactos</span></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- SR675i V3 (featured) -->
-      <div class="lift" style="background:#fff;border:1.5px solid #C8411B;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;position:relative">
-        <div style="position:absolute;top:14px;right:14px;z-index:2;background:#C8411B;color:#fff;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.1em;padding:5px 10px;border-radius:2px">RECOMENDADO</div>
-        <div style="width:100%;height:180px;display:flex;align-items:center;justify-content:center;background:#fff;border-bottom:1px solid #E3E5E8"><img src="assets/srv/sr780a.png" alt="ThinkSystem SR675i V3" style="max-width:88%;max-height:150px;object-fit:contain"/></div>
-        <div style="padding:24px;flex:1;display:flex;flex-direction:column">
-          <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;color:#C8411B;margin:0">INFERENCIA EMPRESARIAL</p>
-          <h3 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:21px;margin:8px 0 0">ThinkSystem SR675i V3</h3>
-          <p style="font-size:13.5px;line-height:1.55;color:#6B7178;margin:10px 0 0">Servidor GPU-rich 3U configurado para inferencia de IA. El corazón del Servidor de IA propietario.</p>
-          <div style="margin-top:16px;border-top:1px solid #E3E5E8;padding-top:14px;display:flex;flex-direction:column;gap:7px;font-size:12.5px;color:#4A4F57">
-            <div style="display:flex;justify-content:space-between"><span style="color:#9aa0a6">GPU</span><span>HGX H200 4-GPU · NVLink</span></div>
-            <div style="display:flex;justify-content:space-between"><span style="color:#9aa0a6">CPU</span><span>2× AMD EPYC 9005</span></div>
-            <div style="display:flex;justify-content:space-between"><span style="color:#9aa0a6">Memoria</span><span>Hasta 3 TB DDR5</span></div>
-            <div style="display:flex;justify-content:space-between"><span style="color:#9aa0a6">Cooling</span><span>Neptune® L2A híbrido</span></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- SR680a V4 -->
-      <div class="lift" style="background:#fff;border:1px solid #E3E5E8;border-radius:6px;overflow:hidden;display:flex;flex-direction:column">
-        <div style="width:100%;height:180px;display:flex;align-items:center;justify-content:center;background:#fff;border-bottom:1px solid #E3E5E8"><img src="assets/srv/sr680a.png" alt="ThinkSystem SR680a V4" style="max-width:88%;max-height:150px;object-fit:contain"/></div>
-        <div style="padding:24px;flex:1;display:flex;flex-direction:column">
-          <p style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;color:#C8411B;margin:0">IA GENERATIVA A ESCALA</p>
-          <h3 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:21px;margin:8px 0 0">ThinkSystem SR680a V4</h3>
-          <p style="font-size:13.5px;line-height:1.55;color:#6B7178;margin:10px 0 0">8U para los modelos más exigentes. Comunicación GPU-a-GPU de altísimo ancho de banda para GenAI.</p>
-          <div style="margin-top:16px;border-top:1px solid #E3E5E8;padding-top:14px;display:flex;flex-direction:column;gap:7px;font-size:12.5px;color:#4A4F57">
-            <div style="display:flex;justify-content:space-between"><span style="color:#9aa0a6">GPU</span><span>8× NVIDIA B300 HGX</span></div>
-            <div style="display:flex;justify-content:space-between"><span style="color:#9aa0a6">CPU</span><span>2× Intel Xeon 6</span></div>
-            <div style="display:flex;justify-content:space-between"><span style="color:#9aa0a6">Formato</span><span>8U rack</span></div>
-          </div>
-        </div>
-      </div>
+    <div class="reasons">
+      <a class="reason" href="SIAB-Bloque-1.dc.html"><h3>Soberanía y control</h3><p>La inteligencia, los datos y las decisiones son de su organización.</p><span class="go">Leer más</span></a>
+      <a class="reason" href="SIAB-Bloque-2.dc.html"><h3>Seguridad y cumplimiento</h3><p>La forma más segura y conforme de desplegar IA en la empresa.</p><span class="go">Leer más</span></a>
+      <a class="reason" href="SIAB-Bloque-3.dc.html"><h3>Inteligencia y capacidad</h3><p>Responde sobre todo el negocio, no sobre un único documento.</p><span class="go">Leer más</span></a>
+      <a class="reason" href="SIAB-Bloque-4.dc.html"><h3>Valor económico</h3><p>La soberanía se traduce en euros, en tiempo y en ventaja.</p><span class="go">Leer más</span></a>
+      <a class="reason" href="SIAB-Bloque-5.dc.html"><h3>Estrategia y confianza</h3><p>Europa, geopolítica, sector y un acompañamiento que da resultado.</p><span class="go">Leer más</span></a>
     </div>
-    <p style="font-size:12px;color:#9aa0a6;margin:22px 0 0;line-height:1.5">Modelos y especificaciones de referencia de la gama Lenovo ThinkSystem para IA. La configuración final se dimensiona según el caso de uso del cliente. Arrastra las fotos reales de servidor sobre los marcadores.</p>
+    <div class="quote"><span class="bar" aria-hidden="true"></span><p>No podemos usar sus datos, porque no los tenemos. Soberanía por arquitectura, no por contrato.</p></div>
   </div>
+</section>
 
-  <!-- ===== CTA ===== -->
-  <div id="contacto" style="background:#101317;color:#fff">
-    <div style="max-width:1200px;margin:0 auto;padding:80px 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:32px">
-      <div>
-        <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:36px;letter-spacing:-.02em;margin:0;max-width:560px">No puedo usar tus datos, porque no los tengo.</h2>
-        <p style="font-size:16px;color:rgba(255,255,255,.7);margin:16px 0 0;max-width:520px">Soberanía por arquitectura, no por contrato. Hablemos de tu Servidor de IA.</p>
-      </div>
-      <a class="btnr" href="SIAB-Contacto.dc.html" style="background:#C8411B;color:#fff;font-family:'Montserrat',sans-serif;font-weight:600;font-size:15px;padding:16px 34px;border-radius:2px;white-space:nowrap">Solicitar una demo</a>
+<section class="sec" id="servidores">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>La caja es real: servidores Lenovo ThinkSystem</h2>
+      <p>COGNITIV se instala en servidores Lenovo preparados para inferencia de IA, en su sala o en su centro de datos. El tamaño depende de sus modelos y de cuántas personas los usan.</p>
     </div>
+    <table class="srv-t">
+      <thead><tr><th scope="col">Servidor</th><th scope="col">Para qué</th><th scope="col">GPU</th><th scope="col">Formato</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">ThinkEdge SE360 V2<small>Delegaciones, planta o tienda</small></th><td data-l="Para qué">Modelos compactos fuera del centro de datos; silencioso y robusto.</td><td data-l="GPU">NVIDIA L4 / L40S</td><td data-l="Formato">Edge, poca profundidad</td></tr>
+        <tr class="rec"><th scope="row">ThinkSystem SR675i V3<small>Configuración recomendada</small></th><td data-l="Para qué">Inferencia para toda la empresa: el corazón del servidor de IA propio.</td><td data-l="GPU">HGX H200, 4 GPU con NVLink</td><td data-l="Formato">Rack 3U, refrigeración híbrida</td></tr>
+        <tr><th scope="row">ThinkSystem SR680a V4<small>IA generativa a gran escala</small></th><td data-l="Para qué">Los modelos más exigentes y muchos usuarios a la vez.</td><td data-l="GPU">8× NVIDIA B300 HGX</td><td data-l="Formato">Rack 8U</td></tr>
+      </tbody>
+    </table>
+    <p class="srv-note">Modelos y especificaciones de referencia de la gama Lenovo ThinkSystem. La configuración final se dimensiona según su caso de uso.</p>
+    <p class="srv-cta"><a href="SIAB-Servidores.dc.html">Ver el catálogo completo de servidores</a></p>
   </div>
+</section>
 
-  <!-- ===== FOOTER ===== -->
-  <div style="background:#0B0D10;color:rgba(255,255,255,.55);border-top:1px solid rgba(255,255,255,.08)">
-    <div style="max-width:1200px;margin:0 auto;padding:32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px">
-      <div style="display:flex;align-items:center;gap:12px">
-        <span style="display:inline-flex;align-items:center;gap:10px;white-space:nowrap"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:17px;letter-spacing:.04em;color:#E4572E;border:2px solid currentColor;padding:3px 9px 4px;line-height:1">COGNITIV</span><span style="font-family:'Montserrat',sans-serif;font-weight:500;font-size:12px;color:rgba(255,255,255,.72);line-height:1.2">por Software in a Box</span></span>
-      </div>
-      <span style="font-size:12px">Servidor de IA propietario · Soberanía por diseño</span>
+<section class="sec scen" id="escenarios">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>Cómo se usa en cada sector</h2>
+      <p>Escenarios de despliegue típicos, con el problema de partida y lo que cambia con COGNITIV.</p>
     </div>
+    <div class="scards">
+      <a class="scard" href="SIAB-Caso-Industria.dc.html"><img src="assets/casos/industria-control-crop.jpg" alt="Sala de control de una planta industrial" loading="lazy"><div><span class="s">Industria</span><h3>Una pregunta que cruza ERP, producción y calidad</h3><p>El secreto de fabricación no sale de planta.</p></div></a>
+      <a class="scard" href="SIAB-Caso-Finanzas.dc.html"><img src="assets/casos/finanzas-crop.jpg" alt="Pantallas con datos de mercados financieros" loading="lazy"><div><span class="s">Finanzas</span><h3>Análisis de riesgo conforme a DORA</h3><p>Inferencia local sobre cartera y operaciones, auditable de extremo a extremo.</p></div></a>
+      <a class="scard" href="SIAB-Caso-Legal.dc.html"><img src="assets/casos/legal-crop.jpg" alt="Abogado revisando documentación" loading="lazy"><div><span class="s">Legal</span><h3>Conocimiento jurídico bajo secreto profesional</h3><p>Búsqueda y redacción sobre todo el fondo documental del despacho.</p></div></a>
+    </div>
+    <p class="all"><a href="SIAB-Casos-Exito.dc.html">Ver todos los escenarios, también salud y sector público</a></p>
   </div>
+</section>
 
+<section class="cta">
+  <div class="wrap">
+    <div><h2>Véalo funcionar con sus propios documentos</h2><p>Preparamos una demostración con un caso de su organización.</p></div>
+    <a class="btn" href="SIAB-Contacto.dc.html">Solicitar una demo</a>
+  </div>
+</section>
+</main>
 
-<div style="background:#0B0D10;border-top:1px solid rgba(255,255,255,.08)"><div style="max-width:1240px;margin:0 auto;padding:16px 32px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:'Hanken Grotesk',sans-serif;font-size:13px;color:rgba(255,255,255,.62)"><span>COGNITIV es un producto de <a href="https://www.softwareinabox.eu/" style="color:#fff">Software in a Box</a> · <a href="https://argos.softwareinabox.eu/" style="color:rgba(255,255,255,.8)">ARGOS</a> · <a href="https://datos.softwareinabox.eu/" style="color:rgba(255,255,255,.8)">Espacios de datos</a></span><span style="display:flex;gap:18px;flex-wrap:wrap"><a href="https://www.softwareinabox.eu/aviso-legal.html" style="color:rgba(255,255,255,.8)">Aviso legal</a><a href="https://www.softwareinabox.eu/privacidad.html" style="color:rgba(255,255,255,.8)">Privacidad</a><a href="https://www.softwareinabox.eu/cookies.html" style="color:rgba(255,255,255,.8)">Cookies</a></span></div></div>
-</div>
-</x-dc>
-<script type="text/x-dc" data-dc-script>
-class Component extends DCLogic {
-  componentDidMount() {
-    this.obs = new IntersectionObserver((entries) => {
-      entries.forEach((e) => {
-        if (e.isIntersecting) { e.target.classList.add("play"); this.obs.unobserve(e.target); }
-      });
-    }, { threshold: 0.25 });
-    setTimeout(() => {
-      document.querySelectorAll("[data-scene]").forEach((el) => this.obs.observe(el));
-    }, 60);
-  }
-  componentWillUnmount() { if (this.obs) this.obs.disconnect(); }
-  renderVals() { return {}; }
-}
+<footer class="ft">
+  <div class="wrap">
+    <div class="cols">
+      <div><span class="mark" style="color:var(--cog-l);font-size:16px">COGNITIV</span><p style="margin-top:14px;max-width:24em">Servidor de IA propio sobre Lenovo ThinkSystem. Un producto de Software in a Box.</p></div>
+      <div><h4>COGNITIV</h4><a href="SIAB-COGNITIV.dc.html">Qué es</a><a href="SIAB-Servidores.dc.html">Servidores</a><a href="SIAB-Casos-Exito.dc.html">Escenarios de uso</a><a href="SIAB-Contacto.dc.html">Solicitar una demo</a></div>
+      <div><h4>Software in a Box</h4><a href="https://www.softwareinabox.eu/">Inicio</a><a href="https://argos.softwareinabox.eu/">ARGOS</a><a href="https://datos.softwareinabox.eu/">Espacios de datos</a></div>
+      <div><h4>Contacto</h4><a href="mailto:emilio.mulet@softwareinabox.eu">emilio.mulet@softwareinabox.eu</a><a href="tel:+34601398868">+34 601 398 868</a></div>
+    </div>
+    <div class="legal"><span>© 2026 Software in a Box, marca de Ullswater Investments S.L. Lenovo y ThinkSystem son marcas de Lenovo.</span><nav aria-label="Legal"><a href="https://www.softwareinabox.eu/aviso-legal.html">Aviso legal</a><a href="https://www.softwareinabox.eu/privacidad.html">Privacidad</a><a href="https://www.softwareinabox.eu/cookies.html">Cookies</a></nav></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var b=document.querySelector('.burger'),n=document.getElementById('nav');
+  b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+  // el cable
+  var sw=document.getElementById('sw'),demo=document.getElementById('demo'),l=document.getElementById('sw-l'),v=document.getElementById('net-v');
+  sw.addEventListener('click',function(){
+    var on=sw.getAttribute('aria-checked')!=='true';
+    sw.setAttribute('aria-checked',on);demo.classList.toggle('off',!on);
+    l.textContent=on?'Internet conectado':'Internet desconectado';v.textContent=on?'Conectado':'Desconectado';
+  });
+  // módulos
+  var M=[
+    ['CORE','Motor de inferencia','Ejecuta modelos abiertos, como Llama o Mistral, en su servidor. La inferencia es cien por cien propia, sin ninguna API externa.',['Usted elige qué modelo y qué versión usar','El modelo va al dato: principio compute-to-data','Sigue funcionando sin conexión a Internet']],
+    ['VAULT','Datos y permisos','Gobierno del dato desde el diseño: cada persona ve solo lo que su puesto permite, y la regla viaja pegada al dato.',['Permisos por rol con ODRL (norma UNE 0087)','Cifrado y acceso mínimo','Los permisos se aplican también a las respuestas de la IA']],
+    ['HUB','Orquestador vectorial','Une ERP, CRM, almacén y documentos en una memoria vectorial, para que una sola pregunta cruce toda la operación.',['Fin de los silos de información','PDF, hojas, correos y albaranes escaneados, en varios idiomas','Federa con clientes y proveedores sin ceder datos']],
+    ['NEXUS','Agentes y memoria','Agentes que ejecutan tareas completas, como pedidos, facturas o informes, dentro de los límites que usted marque.',['Barandillas y registro en cada acción','Memoria corporativa: el conocimiento se queda aunque las personas cambien','Aprende su vocabulario, sus productos y su forma de trabajar']],
+    ['TRACE','Trazabilidad y auditoría','Cada pregunta, cada respuesta y cada acción quedan registradas de forma íntegra y consultable. La IA deja de ser una caja negra.',['Base para cumplir el Reglamento de IA, el RGPD, NIS2 y DORA','Registro consultable para auditorías','Lo que no se puede auditar no se puede gobernar']]
+  ];
+  var bays=[].slice.call(document.querySelectorAll('.bay')),d=document.getElementById('mod-detail');
+  function show(i){bays.forEach(function(x,j){x.setAttribute('aria-pressed',j===i)});var m=M[i];
+    d.innerHTML='<h3>'+m[0]+'</h3><p class="r">'+m[1]+'</p><p>'+m[2]+'</p><ul>'+m[3].map(function(t){return '<li>'+t+'</li>'}).join('')+'</ul><a class="more" href="SIAB-COGNITIV.dc.html">Ver la arquitectura completa</a>';}
+  bays.forEach(function(x,i){x.addEventListener('click',function(){show(i)})});
+  show(0);
+})();
 </script>
 </body>
 </html>
