@@ -40,3 +40,4 @@ Datos clave:
 - [English](https://cognitiv.softwareinabox.eu/en/)
 - [Français](https://cognitiv.softwareinabox.eu/fr/)
 - [Deutsch](https://cognitiv.softwareinabox.eu/de/)
+- [Nederlands](https://cognitiv.softwareinabox.eu/nl/)
