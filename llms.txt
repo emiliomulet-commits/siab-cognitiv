@@ -43,3 +43,6 @@ Datos clave:
 - [Nederlands](https://cognitiv.softwareinabox.eu/nl/)
 - [Português](https://cognitiv.softwareinabox.eu/pt/)
 - [Italiano](https://cognitiv.softwareinabox.eu/it/)
+- [Dansk](https://cognitiv.softwareinabox.eu/da/)
+- [Français (Belgique)](https://cognitiv.softwareinabox.eu/fr-be/)
+- [Nederlands (België)](https://cognitiv.softwareinabox.eu/nl-be/)
